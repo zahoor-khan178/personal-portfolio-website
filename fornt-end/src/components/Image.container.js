@@ -8,7 +8,8 @@ const Image = () => {
 
         <div id='image-container'>
 
-            <img src={img} alt="image not found" id='image' />
+           <img src={img} alt=" Zahoor Khan" id='photo' />
+
             <div id='image-heading-description'>
                 <h2 id='image-heading'>Zahoor Khan</h2>
                 <p id='image-description'>Software Engineer ||
