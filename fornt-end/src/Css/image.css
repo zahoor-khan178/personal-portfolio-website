@@ -1,0 +1,95 @@
+
+ #image-container{
+
+    width: 100%;
+    background-color: rgb(31, 29, 29);
+    background-color: rgb(2, 2, 53);
+    background-color: rgb(2, 2, 2);
+    background-color: rgb(10, 10, 10);
+    background-color:rgb(2, 39, 44);
+    position: fixed;
+    
+    /* background-color: rgb(1, 1, 37); */
+    /* background-color: rgb(138, 138, 14); */
+
+  
+    
+ }
+
+ #image{
+
+ 
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 40px;
+ }
+
+ #image-heading-description
+ {
+    color: black;
+    color: white;
+    color:antiquewhite;
+      /* color:rgb(238, 139, 10); */
+      /* color:cyan;
+      color:crimson;
+      color:darkorange */
+    /* color:azure; */
+    /* color:beige;
+    color:bisque; */
+    /* background-color:aquamarine; */
+   
+
+    
+ }
+
+
+
+
+ @media screen and (max-width: 320px) {
+
+
+    #image-container{
+
+   
+    height: 70vh;
+    height: fit-content;
+    margin-top: 5vh;
+    border-radius: 10px;
+    
+    text-align: center;
+    padding-bottom: 10vh;
+  
+    
+ }
+
+ #image-heading-description
+ {
+    
+
+   
+    font-size: 4vw;
+    margin-top: 20px;
+    /* font-weight: 500; */
+    text-align: center;
+    
+ }
+
+  #image-description
+ {
+    /* justify-content: justify; */
+    padding: 0 4vw;
+ }
+
+  #image{
+
+ 
+    width: 40vw;
+    height: 40vw;
+    /* height: 130px; */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 40px;
+ }
+ }
