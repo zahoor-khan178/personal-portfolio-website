@@ -2,12 +2,15 @@
  #image-container{
 
     width: 100%;
-    background-color: rgb(31, 29, 29);
+    z-index: 2;
+    /* background-color: rgb(31, 29, 29);
     background-color: rgb(2, 2, 53);
     background-color: rgb(2, 2, 2);
     background-color: rgb(10, 10, 10);
     background-color:rgb(2, 39, 44);
-    position: fixed;
+    background-color:rgb(1, 28, 32);
+     background-color: rgb(1, 1, 27); */
+    /* position: fixed; */
     
     /* background-color: rgb(1, 1, 37); */
     /* background-color: rgb(138, 138, 14); */
@@ -19,18 +22,36 @@
  #photo{
 
  
-    width: 130px;
-    height: 130px;
+    width: 42vw;
+    height: 42vw;
     border-radius: 50%;
     object-fit: cover;
     margin-top: 40px;
+    /* border: 2px solid  rgb(205, 66, 205); */
+      border: 2px solid  rgb(3, 223, 252);
+    /* border: 2px solid  rgb(205, 66, 205); */
+   
+    box-shadow: 0 0 20px 2px rgb(5, 150, 169);
+   
+ }
+
+ #photo:hover{
+
+    border: 2px solid  rgb(3, 223, 252);
+    /* border: 2px solid  rgb(205, 66, 205); */
+   
+    box-shadow: 0 0 20px 2px rgb(5, 150, 169);
+    /* box-shadow: 0 0 20px 2px rgb(146, 7, 146); */
+
+     border: 2px solid  rgb(9, 167, 9);
+    box-shadow: 0 0 70px 2px green;
  }
 
  #image-heading-description
  {
     color: black;
     color: white;
-    color:antiquewhite;
+    /* color:antiquewhite; */
       /* color:rgb(238, 139, 10); */
       /* color:cyan;
       color:crimson;
@@ -55,11 +76,13 @@
    
     height: 70vh;
     height: fit-content;
-    margin-top: 5vh;
+    margin-top: 8vh;
     border-radius: 10px;
     
     text-align: center;
     padding-bottom: 10vh;
+    /* background-color: rgb(1, 38, 43);
+    background-color:rgb(48, 58, 59); */
   
     
  }
@@ -70,7 +93,7 @@
 
    
     font-size: 4vw;
-    margin-top: 20px;
+    margin-top: 8vh;
     /* font-weight: 500; */
     text-align: center;
     
@@ -78,8 +101,31 @@
 
   #image-description
  {
-    /* justify-content: justify; */
+    justify-content: center;
     padding: 0 4vw;
+ }
+ .mern-span{
+
+   color: rgb(224, 8, 8);
+   color:rgb(3, 223, 252);
+   /* color: rgb(205, 66, 205); */
+   font-size: 5vw;
+    
+ }
+
+ .mern{
+font-size: 5vw;
+color: rgb(2, 253, 253);
+color: rgb(254, 6, 138);
+color: rgb(130, 1, 250);
+color:rgb(3, 223, 252);
+color:rgb(243, 243, 22);
+color:rgb(252, 5, 54);
+color:fuchsia;
+color: rgb(205, 66, 205);
+/* color:rgb(3, 223, 252); */
+
+font-weight: 500;
  }
 
   #image{

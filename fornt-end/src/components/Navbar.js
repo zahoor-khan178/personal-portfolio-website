@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import '../Css/nav.css';
 
@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
       <nav id="nav-container">
         <div className="div1">
-          <p id="portfolio-heading">portfolio</p>
+          <p id="portfolio-heading">Zahoor's portfolio</p>
           <div id="humbarger" onClick={toggleNavbar}>
             <div className={`line1 ${visible ? 'toggle' : 'untoggle'} humb-lines`}></div>
             <div className={`line2 ${visible ? 'toggle' : 'untoggle'} humb-lines`}></div>
@@ -22,12 +22,12 @@ const Navbar = () => {
         </div>
 
         <ul className={`links-container ${visible ? 'show' : 'hide'}`}>
-          <li className="links-lis"><Link className="links">Home</Link></li>
-          <li className="links-lis"><Link className="links">About</Link></li>
-          <li className="links-lis"><Link className="links">Projects</Link></li>
-          <li className="links-lis"><Link className="links">Experience</Link></li>
-          <li className="links-lis"><Link className="links">Services</Link></li>
-          <li className="links-lis"><Link className="links">Contact</Link></li>
+          <li className="links-lis"><a href="#image-container" onClick={toggleNavbar} className="links">Home</a></li>
+          <li className="links-lis"><a href="#about" onClick={toggleNavbar} className="links">About</a></li>
+          <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Projects</a></li>
+          <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Experience</a></li>
+          <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Services</a></li>
+          <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Contact</a></li>
         </ul>
       </nav>
 

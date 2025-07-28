@@ -2,6 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 3;
 }
 
 .links-container {
@@ -11,9 +12,15 @@
   overflow: hidden;
   max-height: 0;
   opacity: 0;
-  color: black;
+     background-color: rgb(19, 18, 18);
+    background-color:rgb(0, 123, 140);
+     /* background-color: rgb(138, 138, 14); */
+    width: 100%;
+    /* z-index: 30; */
   transition: max-height 0.5s ease, opacity 0.5s ease;
 }
+
+
 
 .links-container.show {
   max-height: 300px;
@@ -30,12 +37,12 @@
 .links {
   text-decoration: none;
   color: white;
+  /* width: 100%;
+  border: 1px solid red; */
+
 }
 
-#main-page {
-  margin: 0;
-  padding: 0;
-}
+
 
 #humbarger {
   display: flex;
@@ -56,14 +63,7 @@
 .line2.toggle{
     display: none;
 }
-.line3.toggle{
-    transform: rotate(45deg) translateY(-3.5px);
-}
 
-.line1.toggle{
-    transform: rotate(-45deg) translateY(3.5px);
-    
-}
 
 .nav-spacer {
   height: 10vh; /* height of navbar */
@@ -83,7 +83,7 @@
   }
 
   #portfolio-heading {
-    font-size: 5vw;
+    font-size: 3.5vw;
     margin-left: 2vw;
     color: white;
   }
@@ -107,28 +107,45 @@
   #humbarger {
     row-gap: 5px;
     height: fit-content;
-    width: 20px;
+    width: 6vw;
   }
 
-  .links-container {
-    background-color: rgb(19, 18, 18);
-    background-color:rgb(0, 123, 140);
-     /* background-color: rgb(138, 138, 14); */
-    width: 100%;
-  }
+ 
 
   .links-lis {
     position: relative;
     width: 100%;
     border-bottom: 0.1px solid white;
    
-    text-align: center;
+    /* text-align: center; */
    
     height: 5vh;
   }
+
+  .links-lis:hover{
+
+   background-color:rgb(3, 91, 103);
+}
   .links{
 
-    
+    position: absolute;
     font-size: 4vw;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
   }
+
+
+ 
+
+
+  .line3.toggle{
+    transform: rotate(45deg) translateY(-3.8px);
+}
+
+.line1.toggle{
+    transform: rotate(-45deg) translateY(3.8px);
+    
+}
 }
