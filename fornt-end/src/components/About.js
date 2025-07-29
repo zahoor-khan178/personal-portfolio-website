@@ -29,6 +29,8 @@ const About = () => {
          <div className='technologies'>
 
             <h3>Technologies</h3>
+
+            <div className='inner-sections-container'>
             <div className='programing-languages inner-section'>
                <h6>Programing Languages</h6>
                <div className='logo-div'>
@@ -65,6 +67,7 @@ const About = () => {
                   <img src={gitLogo} alt='git'></img>
                   <img src={githubLogo} alt='github'></img>
                </div>
+            </div>
             </div>
          </div>
       </>
