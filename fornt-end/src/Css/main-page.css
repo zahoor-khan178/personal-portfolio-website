@@ -5,7 +5,8 @@
   padding: 0;
    background-color: rgb(1, 1, 27);
    z-index: 1;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 

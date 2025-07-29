@@ -65,6 +65,35 @@
     
  }
 
+  .download-cv-container{
+
+   color: white;
+   /* border: 2px solid green; */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+
+ }
+
+  .download-cv{
+
+   background-color:rgb(131, 5, 249);
+ 
+   color: white;
+   
+   border: 1px solid rgb(202, 195, 195);
+    box-shadow: 0 0 20px 1px rgb(171, 169, 169);
+
+ }
+
+ .download-cv:hover{
+
+   background-color:rgb(0, 191, 255);
+   /* border: 1px solid rgb(158, 9, 9); */
+ }
+
 
 
 
@@ -74,13 +103,15 @@
     #image-container{
 
    
-    height: 70vh;
+    /* height: 70vh; */
     height: fit-content;
     margin-top: 8vh;
     border-radius: 10px;
     
     text-align: center;
     padding-bottom: 10vh;
+    border: 0.1vw solid rgb(62, 59, 59);
+    width: 90%;
     /* background-color: rgb(1, 38, 43);
     background-color:rgb(48, 58, 59); */
   
@@ -137,5 +168,38 @@ font-weight: 500;
     border-radius: 50%;
     object-fit: cover;
     margin-top: 40px;
+ }
+
+ .download-cv-container{
+
+  
+   width: 90%;
+   height: fit-content;
+   margin-top: 10vh;
+ 
+   gap: 7vw;
+
+ }
+
+ .download-cv-container>a>img{
+
+   width: 10vw;
+   height: 6vh;
+   object-fit: cover;
+   /* border-radius: 15px; */
+   background-color: none;
+ }
+
+
+
+ .download-cv{
+
+ 
+   padding: 2vw 3vw;
+   border-radius: 10px;
+     font-size: 4vw;
+     
+   
+
  }
  }

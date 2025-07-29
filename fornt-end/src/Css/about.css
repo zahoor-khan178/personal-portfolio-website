@@ -13,14 +13,13 @@
 
 .technologies{
 
-    color: white;
-    margin-top: 15vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-        row-gap: 5vh;
+       
 }
 
 .technologies>h3{
@@ -34,10 +33,10 @@
 .inner-section{
 
    
-    width: 90%;
+    width: 90vw;
     height: fit-content;
     background-color: rgb(46, 42, 42);
-    z-index: 0;
+    /* z-index: 0; */
 
 
 
@@ -69,7 +68,7 @@ padding-bottom: 2vh;
     /* color: rgb(129, 37, 216); */
            border-radius: 10px;
         height: fit-content;
-        margin-top: 15vh;
+        margin-top: 30vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -109,6 +108,14 @@ padding-bottom: 2vh;
          margin-top: 8vh;
     }
 
+    .technologies{
+
+    color: white;
+    margin-top: 20vh;
+    
+        row-gap: 5vh;
+}
+
     .inner-section{
 
     display: flex;
@@ -129,6 +136,8 @@ padding-bottom: 2vh;
         width: 25vw;
         height: 15vh;
         object-fit: cover;
+        /* box-shadow: 0 0 20px 2px green; */
+        border: none;
     }
 
     .logo-div{
