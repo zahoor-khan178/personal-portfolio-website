@@ -422,3 +422,115 @@ font-weight: 500;
 
  }
  }
+
+
+
+
+
+
+ @media screen and (max-width: 1024px) and (min-width: 769px) {
+
+
+    #image-container{
+
+   display: none;
+    /* height: 70vh; */
+    height: fit-content;
+    margin-top: 8vh;
+    border-radius: 10px;
+    
+    text-align: center;
+    padding-bottom: 10vh;
+    border: 0.1vw solid rgb(62, 59, 59);
+    width: 80%;
+    /* background-color: rgb(1, 38, 43);
+    background-color:rgb(48, 58, 59); */
+  
+    
+ }
+
+ #image-heading-description
+ {
+    
+
+   
+    font-size: 2vw;
+    margin-top: 8vh;
+    /* font-weight: 500; */
+    text-align: center;
+    
+ }
+
+  #image-description
+ {
+    justify-content: center;
+    padding: 0 4vw;
+ }
+ .mern-span{
+
+   color: rgb(224, 8, 8);
+   color:rgb(3, 223, 252);
+   /* color: rgb(205, 66, 205); */
+   font-size: 2.5vw;
+    
+ }
+
+ .mern{
+font-size: 2.5vw;
+color: rgb(2, 253, 253);
+color: rgb(254, 6, 138);
+color: rgb(130, 1, 250);
+color:rgb(3, 223, 252);
+color:rgb(243, 243, 22);
+color:rgb(252, 5, 54);
+color:fuchsia;
+color: rgb(205, 66, 205);
+/* color:rgb(3, 223, 252); */
+
+font-weight: 500;
+ }
+
+  #photo{
+
+ 
+    width: 20vw;
+    height: 20vw;
+  
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 40px;
+ }
+
+ .download-cv-container{
+
+  
+   width: 90%;
+   height: fit-content;
+   margin-top: 15vh;
+ 
+   gap: 7vw;
+
+ }
+
+ .download-cv-container>a>img{
+
+   width: 6vw;
+   height: 6vw;
+   object-fit: cover;
+   /* border-radius: 15px; */
+   background-color: none;
+ }
+
+
+
+ .download-cv{
+
+ 
+   padding: 1vw 2vw;
+   border-radius: 10px;
+     font-size: 3vw;
+     
+   
+
+ }
+ }
