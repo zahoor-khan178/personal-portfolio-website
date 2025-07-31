@@ -221,6 +221,7 @@ font-weight: 500;
     padding-bottom: 10vh;
     border: 0.1vw solid rgb(62, 59, 59);
     width: 90%;
+     /* background-color: #212121;  */
     /* background-color: rgb(1, 38, 43);
     background-color:rgb(48, 58, 59); */
   
@@ -439,12 +440,12 @@ font-weight: 500;
   
 
   height: fit-content;
-  margin-top: 28vw;
+  margin-top: 20vw;
   border-radius: 10px;
   padding: 5vh 3vw;
   border: 0.1vw solid rgb(62, 59, 59);
   width: 90%;
-  background-color: #212121; /* optional */
+  /* background-color: #212121; */
 }
 
 
@@ -468,6 +469,12 @@ font-weight: 500;
    margin-bottom: 1vh;
 }
 
+#image-description{
+
+  line-height: 2.5vw;
+  
+}
+
 
 
 
@@ -476,12 +483,12 @@ font-weight: 500;
    color: rgb(224, 8, 8);
    color:rgb(3, 223, 252);
    /* color: rgb(205, 66, 205); */
-   font-size: 2.5vw;
+   font-size: 2vw;
     
  }
 
  .mern{
-font-size: 2.5vw;
+font-size: 2vw;
 color: rgb(2, 253, 253);
 color: rgb(254, 6, 138);
 color: rgb(130, 1, 250);
@@ -526,7 +533,7 @@ font-weight: 500;
  
    padding: 1vw 2vw;
    border-radius: 10px;
-     font-size: 2.5vw;
+     font-size: 2vw;
      
    
 
@@ -546,12 +553,13 @@ font-weight: 500;
   
 
   height: fit-content;
-  margin-top: 5vw;
+  margin-top: 10vw;
   border-radius: 10px;
   padding: 5vh 3vw;
   border: 0.1vw solid rgb(62, 59, 59);
   width: 90%;
-  /* background-color: #212121;  */
+  /* background-color: #111111;  */
+  /* background-color: #383535;  */
 }
 
 
@@ -567,15 +575,26 @@ font-weight: 500;
   height: 20vw;
   border-radius: 50%;
   object-fit: cover;
-  /* margin-bottom: 8vw; */
+  margin-bottom: 4vw;
+  box-shadow: 0 0 20px 2px rgb(3, 116, 131);
 
+}
+
+#photo:hover{
+
+    /* border: 2px solid  rgb(5, 90, 5); */
+      box-shadow: 0 0 70px 2px rgb(1, 53, 1);
 }
 #image-heading {
-   font-size: 2.5vw;
-   margin-bottom: 1vh;
+   font-size: 2.3vw;
+   margin-bottom: 4vh;
 }
 
+#image-description{
 
+  line-height: 2vw;
+  font-size: 1.2vw;
+}
 
 
  .mern-span{
@@ -583,12 +602,12 @@ font-weight: 500;
    color: rgb(224, 8, 8);
    color:rgb(3, 223, 252);
    /* color: rgb(205, 66, 205); */
-   font-size: 2.5vw;
+   font-size: 1.4vw;
     
  }
 
  .mern{
-font-size: 2.5vw;
+font-size: 1.4vw;
 color: rgb(2, 253, 253);
 color: rgb(254, 6, 138);
 color: rgb(130, 1, 250);
@@ -633,7 +652,248 @@ font-weight: 500;
  
    padding: 1vw 2vw;
    border-radius: 10px;
-     font-size: 1vw;
+     font-size: 1.2vw;
+     
+   
+
+ }
+ }
+
+
+
+
+
+ @media screen and (max-width: 2560px) and (min-width: 1441px) {
+
+
+  #image-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  
+
+  height: fit-content;
+  margin-top: 10vw;
+  border-radius: 10px;
+  padding: 5vh 3vw;
+  border: 0.1vw solid rgb(62, 59, 59);
+  width: 90%;
+  /* background-color: #212121;  */
+}
+
+
+#image-heading-description {
+   /* flex: 1; */
+   text-align: center;
+   width: 60%;
+  
+}
+
+#photo {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 4vw;
+  box-shadow: 0 0 20px 2px rgb(3, 116, 131);
+
+}
+
+#photo:hover{
+
+    /* border: 2px solid  rgb(5, 90, 5); */
+      box-shadow: 0 0 70px 2px rgb(1, 53, 1);
+}
+#image-heading {
+   font-size: 2.2vw;
+   margin-bottom: 3vh;
+}
+
+#image-description{
+
+  line-height: 2.3vw;
+  font-size: 1.5vw;
+}
+
+
+ .mern-span{
+
+   color: rgb(224, 8, 8);
+   color:rgb(3, 223, 252);
+   /* color: rgb(205, 66, 205); */
+   font-size: 1.8vw;
+    
+ }
+
+ .mern{
+font-size: 1.8vw;
+color: rgb(2, 253, 253);
+color: rgb(254, 6, 138);
+color: rgb(130, 1, 250);
+color:rgb(3, 223, 252);
+color:rgb(243, 243, 22);
+color:rgb(252, 5, 54);
+color:fuchsia;
+color: rgb(205, 66, 205);
+/* color:rgb(3, 223, 252); */
+
+font-weight: 500;
+ }
+
+
+ .download-cv-container{
+
+  /* position: absolute; */
+   width: fit-content;
+   height: fit-content;
+   margin-top: 12vh;
+   /* text-align: left; */
+ margin-right: 50%;
+   gap: 3vw;
+   /* border: 2px solid red; */
+   /* left: 0; */
+
+ }
+
+ .download-cv-container>a>img{
+
+   width: 3vw;
+   height: 3vw;
+   object-fit: cover;
+   /* border-radius: 15px; */
+   background-color: none;
+ }
+
+
+
+ .download-cv{
+
+ 
+   padding: 1vw 2vw;
+   border-radius: 10px;
+     font-size: 1.2vw;
+     
+   
+
+ }
+ }
+
+
+
+
+
+
+ @media screen and (min-width: 2561px) {
+
+
+  #image-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  
+
+  height: fit-content;
+  margin-top: 10vw;
+  border-radius: 10px;
+  padding: 5vh 3vw;
+  border: 0.1vw solid rgb(62, 59, 59);
+  width: 90%;
+  /* background-color: #212121;  */
+}
+
+
+#image-heading-description {
+   /* flex: 1; */
+   text-align: center;
+   width: 60%;
+  
+}
+
+#photo {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 4vw;
+  box-shadow: 0 0 20px 2px rgb(3, 116, 131);
+
+}
+
+#photo:hover{
+
+    /* border: 2px solid  rgb(5, 90, 5); */
+      box-shadow: 0 0 70px 2px rgb(1, 53, 1);
+}
+#image-heading {
+   font-size: 2.2vw;
+   margin-bottom: 3vh;
+}
+
+#image-description{
+
+  line-height: 2.3vw;
+  font-size: 1.5vw;
+}
+
+
+ .mern-span{
+
+   color: rgb(224, 8, 8);
+   color:rgb(3, 223, 252);
+   /* color: rgb(205, 66, 205); */
+   font-size: 1.8vw;
+    
+ }
+
+ .mern{
+font-size: 1.8vw;
+color: rgb(2, 253, 253);
+color: rgb(254, 6, 138);
+color: rgb(130, 1, 250);
+color:rgb(3, 223, 252);
+color:rgb(243, 243, 22);
+color:rgb(252, 5, 54);
+color:fuchsia;
+color: rgb(205, 66, 205);
+/* color:rgb(3, 223, 252); */
+
+font-weight: 500;
+ }
+
+
+ .download-cv-container{
+
+  /* position: absolute; */
+   width: fit-content;
+   height: fit-content;
+   margin-top: 12vh;
+   /* text-align: left; */
+ margin-right: 50%;
+   gap: 3vw;
+   /* border: 2px solid red; */
+   /* left: 0; */
+
+ }
+
+ .download-cv-container>a>img{
+
+   width: 3vw;
+   height: 3vw;
+   object-fit: cover;
+   /* border-radius: 15px; */
+   background-color: none;
+ }
+
+
+
+ .download-cv{
+
+ 
+   padding: 1vw 2vw;
+   border-radius: 10px;
+     font-size: 1.2vw;
      
    
 

@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
 
         <ul className={`links-container ${visible ? 'show' : 'hide'}`}>
-          <li className="links-lis"><a href="#image-container" onClick={toggleNavbar} className="links">Home</a></li>
+          <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Home</a></li>
           <li className="links-lis"><a href="#about" onClick={toggleNavbar} className="links">About</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Projects</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Experience</a></li>
