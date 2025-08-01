@@ -474,6 +474,7 @@
     height: 5vw;
     background-color:#007bbc;
     background-color:#053048;
+    background-color:#035781;
     /* box-shadow: 0 0 2px 2px rgb(41, 40, 40); */
    
   }
@@ -545,7 +546,7 @@
 
   .links-lis:hover{
 
-    background-color:#007bbc!important;
+    background-color:#03a5fc!important;
     border-radius: 10px;
   }
 
