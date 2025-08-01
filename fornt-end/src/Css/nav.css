@@ -14,7 +14,7 @@
     background-color: rgb(15, 15, 150);
      background-color: rgb(138, 138, 14);
      background-color: rgb(44, 41, 41);
-      background-color: rgb(5, 5, 119);
+      background-color: rgb(5, 5, 119); 
       background-color:#007bbc;
       border-bottom: 1px solid rgb(128, 125, 125);
       
@@ -344,6 +344,7 @@
     height: fit-content;
     width: 100vw;
     background-color:#007bbc;
+      background-color:#053048;
   }
 
   #portfolio-heading {
@@ -358,6 +359,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: transparent;
+    border-bottom: none;
     /* background-color: aquamarine;
     background-color: rgb(15, 15, 150);
      background-color: rgb(138, 138, 14);
@@ -409,7 +412,7 @@
 
   .links-lis:hover{
 
-    /* background-color:rgba(50, 47, 47, 0.6) !important; */
+     background-color:#007bbc!important;
     border-radius: 10px;
   }
 
@@ -470,13 +473,18 @@
     width: 100vw;
     height: 5vw;
     background-color:#007bbc;
+    background-color:#053048;
+    /* box-shadow: 0 0 2px 2px rgb(41, 40, 40); */
+   
   }
 
   #portfolio-heading {
     font-size: 1.5vw;
+    background-color: transparent;
     
     margin-left: 2vw;
     color: rgb(255, 255, 255);
+    
   }
 
   .div1 {
@@ -484,6 +492,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: transparent;
+    border-bottom: none;
     /* background-color: aquamarine;
     background-color: rgb(15, 15, 150);
      background-color: rgb(138, 138, 14);
@@ -528,19 +538,19 @@
     width: fit-content;
     height: fit-content;
     /* border: 2px solid palevioletred; */
-    margin-right: 1.5vw;
+    margin-right: 1.7vw;
     background-color: none;
     /* padding: 1vw 1vw; */
   }
 
   .links-lis:hover{
 
-    /* background-color:rgba(50, 47, 47, 0.6) !important; */
+    background-color:#007bbc!important;
     border-radius: 10px;
   }
 
   .links{
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     /* border: 2px solid greenyellow; */
     padding:  0.5vw 1vw;
     /* border-radius: 20px; */
@@ -579,6 +589,7 @@
     width: 100vw;
     height: 5vw;
     background-color:#007bbc;
+      background-color:#053048;
   }
 
   #portfolio-heading {
@@ -593,6 +604,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: transparent;
+    border-bottom: none;
+
     /* background-color: aquamarine;
     background-color: rgb(15, 15, 150);
      background-color: rgb(138, 138, 14);
@@ -644,7 +658,7 @@
 
   .links-lis:hover{
 
-    /* background-color:rgba(50, 47, 47, 0.6) !important; */
+   background-color:#007bbc!important;
     border-radius: 10px;
   }
 
@@ -671,8 +685,6 @@
     display: none;
   }
 }
-
-
 
 
 
@@ -693,6 +705,7 @@
     width: 100vw;
     height: 5vw;
     background-color:#007bbc;
+      background-color:#053048;
   }
 
   #portfolio-heading {
@@ -707,6 +720,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: transparent;
+    border-bottom: none;
+    
     /* background-color: aquamarine;
     background-color: rgb(15, 15, 150);
      background-color: rgb(138, 138, 14);
@@ -758,7 +774,7 @@
 
   .links-lis:hover{
 
-    /* background-color:rgba(50, 47, 47, 0.6) !important; */
+   background-color:#007bbc!important;
     border-radius: 10px;
   }
 
@@ -785,3 +801,15 @@
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+

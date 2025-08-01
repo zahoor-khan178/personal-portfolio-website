@@ -29,9 +29,11 @@
     margin-top: 40px;
     /* border: 2px solid  rgb(205, 66, 205); */
       border: 2px solid  rgb(3, 223, 252);
+      border: 2px solid  rgb(205, 66, 205);
     /* border: 2px solid  rgb(205, 66, 205); */
    
     box-shadow: 0 0 20px 2px rgb(5, 150, 169);
+    box-shadow: 0 0 20px 2px rgb(205, 66, 205);
    
  }
 

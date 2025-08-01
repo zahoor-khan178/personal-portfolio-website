@@ -26,6 +26,7 @@ const Navbar = () => {
           <li className="links-lis"><a href="#about" onClick={toggleNavbar} className="links">About</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Projects</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Experience</a></li>
+          <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Skills</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Services</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Contact</a></li>
         </ul>
