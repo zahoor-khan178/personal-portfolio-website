@@ -16,6 +16,7 @@
      background-color: rgb(44, 41, 41);
       background-color: rgb(5, 5, 119); 
       background-color:#007bbc;
+      background-color:#053048;
       border-bottom: 1px solid rgb(128, 125, 125);
       
  }
@@ -120,6 +121,7 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
+    
   }
 
   #portfolio-heading {
@@ -187,6 +189,7 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
+ 
   }
 
   #portfolio-heading {
@@ -474,7 +477,7 @@
     height: 5vw;
     background-color:#007bbc;
     background-color:#053048;
-    background-color:#035781;
+    /* background-color:#035781; */
     /* box-shadow: 0 0 2px 2px rgb(41, 40, 40); */
    
   }
@@ -594,7 +597,7 @@
   }
 
   #portfolio-heading {
-    font-size: 1.5vw;
+    font-size: 1.1vw;
     
     margin-left: 2vw;
     color: rgb(255, 255, 255);
@@ -664,7 +667,7 @@
   }
 
   .links{
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     /* border: 2px solid greenyellow; */
     padding:  0.5vw 1vw;
     /* border-radius: 20px; */
@@ -696,7 +699,12 @@
 
 
 
-@media screen and (min-width: 2561px) {
+
+
+
+
+
+@media screen and  (min-width: 2561px) {
   #nav-container {
     display: flex;
     flex-direction: row;
@@ -710,7 +718,7 @@
   }
 
   #portfolio-heading {
-    font-size: 1.5vw;
+    font-size: 1.1vw;
     
     margin-left: 2vw;
     color: rgb(255, 255, 255);
@@ -723,7 +731,7 @@
     align-items: center;
     background-color: transparent;
     border-bottom: none;
-    
+
     /* background-color: aquamarine;
     background-color: rgb(15, 15, 150);
      background-color: rgb(138, 138, 14);
@@ -780,7 +788,7 @@
   }
 
   .links{
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     /* border: 2px solid greenyellow; */
     padding:  0.5vw 1vw;
     /* border-radius: 20px; */
@@ -802,6 +810,16 @@
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

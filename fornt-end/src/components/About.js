@@ -1,13 +1,13 @@
 
 import '../Css/about.css'
 
-import jsLogo from '../icons/javascript.png';
-import cppLogo from '../icons/c++.png';
+import jsLogo from '../icons/javascript-icon4.png';
+import cppLogo from '../icons/c++.svg';
 import htmlLogo from '../icons/html.png';
 import cssLogo from '../icons/css.png';
 import bootstrapLogo from '../icons/bootstrap.png';
 import reactLogo from '../icons/react.svg';
-import gitLogo from '../icons/git.png';
+import gitLogo from '../icons/git-icon2.png';
 import githubLogo from '../icons/github.png';
 import nodeLogo from '../icons/node.js.png';
 import expressLogo from '../icons/express.js.png';

@@ -30,10 +30,13 @@
     /* border: 2px solid  rgb(205, 66, 205); */
       border: 2px solid  rgb(3, 223, 252);
       border: 2px solid  rgb(205, 66, 205);
+      border: 2px solid  white;
+
     /* border: 2px solid  rgb(205, 66, 205); */
    
     box-shadow: 0 0 20px 2px rgb(5, 150, 169);
     box-shadow: 0 0 20px 2px rgb(205, 66, 205);
+    box-shadow: 0 0 20px 1px rgb(255, 255, 255);
    
  }
 
@@ -550,12 +553,12 @@ font-weight: 500;
   #image-container {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   
 
   height: fit-content;
-  margin-top: 10vw;
+  margin-top: 8vw;
   border-radius: 10px;
   padding: 5vh 3vw;
   border: 0.1vw solid rgb(62, 59, 59);
@@ -568,17 +571,18 @@ font-weight: 500;
 #image-heading-description {
    /* flex: 1; */
    text-align: center;
-   width: 50%;
+   width: 40%;
   
 }
 
 #photo {
-  width: 20vw;
-  height: 20vw;
+  width: 15vw;
+  height: 15vw;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 4vw;
-  box-shadow: 0 0 20px 2px rgb(3, 116, 131);
+ 
+  /* box-shadow: 0 0 20px 2px rgb(3, 116, 131); */
 
 }
 
@@ -588,14 +592,14 @@ font-weight: 500;
       box-shadow: 0 0 70px 2px rgb(1, 53, 1);
 }
 #image-heading {
-   font-size: 2.3vw;
+   font-size: 2vw;
    margin-bottom: 4vh;
 }
 
 #image-description{
 
   line-height: 2vw;
-  font-size: 1.2vw;
+  font-size: 1vw;
 }
 
 
@@ -629,7 +633,7 @@ font-weight: 500;
   /* position: absolute; */
    width: fit-content;
    height: fit-content;
-   margin-top: 12vh;
+   margin-top: 8vh;
    /* text-align: left; */
  margin-right: 50%;
    gap: 3vw;
@@ -640,8 +644,8 @@ font-weight: 500;
 
  .download-cv-container>a>img{
 
-   width: 3vw;
-   height: 3vw;
+   width: 2.8vw;
+   height: 2.8vw;
    object-fit: cover;
    /* border-radius: 15px; */
    background-color: none;
@@ -652,9 +656,9 @@ font-weight: 500;
  .download-cv{
 
  
-   padding: 1vw 2vw;
+   padding: 0.8vw 1vw;
    border-radius: 10px;
-     font-size: 1.2vw;
+     font-size: 1.1vw;
      
    
 

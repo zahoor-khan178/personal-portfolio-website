@@ -153,6 +153,7 @@ padding-bottom: 2vh;
  /* z-index: 0; */
  height: 100%;
  width: 100%;
+ border-radius: 20px;
 
 
 
@@ -290,6 +291,7 @@ font-size: 4vw;
  height: fit-content;
  /* min-height: fit-content; */
  width: 100%;
+ border-radius: 20px;
 
 
 
@@ -427,6 +429,7 @@ font-size: 4vw;
 
     /* padding: 0; */
     margin: 0;
+    border-radius: 20px;
     
  /* z-index: 0; */
 
@@ -680,7 +683,7 @@ font-size: 2vw;
     #about-heading{
 
         /* border: 2px solid green; */
-        font-size: 2.5vw;
+        font-size: 2vw;
         /* background-color: darkorchid; */
         /* background-color: aquamarine;; */
         
@@ -695,7 +698,7 @@ font-size: 2vw;
 
         text-align: justify;
         /* border: 2px solid black; */
-        font-size: 1.5vw;
+        font-size: 1.2vw;
         padding: 0 6vw;
         line-height: 3vw;
         /* background-color: aqua; */
@@ -721,20 +724,20 @@ font-size: 2vw;
     width: 90vw;
     height: fit-content;
       display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        /* border: 2px solid red; */
+      
         column-gap: 1vw;
-        row-gap: 4vw;
+        row-gap: 1vw;
         padding-bottom: 5vw;
-        margin-top: 5vw;
+        margin-top: 3vw;
 
 }
 
  .technologies>h3{
 
-     font-size: 2.5vw;
-     column-span: 1/3;
+     font-size: 2.2vw;
+     /* column-span: 1/3; */
  }
 
     .inner-section{
@@ -747,11 +750,13 @@ font-size: 2vw;
     /* padding: 0 3vw; */
     padding-bottom: 5%;
     width: 90%;
-    height: 90%;
+    height: 70%;
+    padding-bottom: 5vw;
+    border-radius: 10px;
      /* min-height: fit-content; */
 
     /* padding: 0; */
-    margin: 0;
+   
     
  /* z-index: 0; */
 
@@ -766,28 +771,21 @@ font-size: 2vw;
     /* justify-content: center; */
 }
 
- .logo-div{
 
-    /* margin-top: 30%; */
- margin-top: auto;
-    margin-bottom: auto;
-    /* border: 2px solid green; */
-    padding: 0;
-}
 
-.tools{
+/* .tools{
 
     column-span: 1/3;
-}
+} */
 
 .inner-section>h6{
-font-size: 2vw;
+font-size: 1.2vw;
 
 }
    .logo-div>img{
 
-        width: 10vw;
-        height: 10vw;
+        width: 7vw;
+        height: 7vw;
         object-fit: contain;
         /* box-shadow: 0 0 20px 2px green; */
         border: none;
@@ -800,7 +798,8 @@ font-size: 2vw;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        column-gap: 4vw;
+        column-gap: 1vw;
+        margin-top: 2vw;
 
 
     }
@@ -811,13 +810,20 @@ font-size: 2vw;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         row-gap: 4vh;
+        column-gap: 3vw;
+        margin-top: 0;
+        
+        
     }
 
     .front-end-logos>img{
 
+        margin-top: 0;
+
         width: 5vw;
         height: 5vw;
         object-fit: contain;
+        border-radius: 10px;
         
     }
 }
@@ -854,7 +860,7 @@ font-size: 2vw;
     #about-heading{
 
         /* border: 2px solid green; */
-        font-size: 2.5vw;
+        font-size: 2.2vw;
         /* background-color: darkorchid; */
         /* background-color: aquamarine;; */
         
@@ -907,7 +913,7 @@ font-size: 2vw;
 
  .technologies>h3{
 
-     font-size: 2.5vw;
+     font-size: 2.2vw;
      column-span: 1/3;
  }
 
@@ -926,6 +932,7 @@ font-size: 2vw;
 
     /* padding: 0; */
     margin: 0;
+    border-radius: 20px;
     
  /* z-index: 0; */
 
@@ -955,7 +962,7 @@ font-size: 2vw;
 }
 
 .inner-section>h6{
-font-size: 2vw;
+font-size: 1.5vw;
 
 }
    .logo-div>img{
@@ -995,17 +1002,7 @@ font-size: 2vw;
         
     }
 }
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 2561px) {
+@media screen and  (min-width: 2561px) {
     .about-container {
 
         display: none;
@@ -1031,7 +1028,7 @@ font-size: 2vw;
     #about-heading{
 
         /* border: 2px solid green; */
-        font-size: 2.5vw;
+        font-size: 2.2vw;
         /* background-color: darkorchid; */
         /* background-color: aquamarine;; */
         
@@ -1084,7 +1081,7 @@ font-size: 2vw;
 
  .technologies>h3{
 
-     font-size: 2.5vw;
+     font-size: 2.2vw;
      column-span: 1/3;
  }
 
@@ -1103,6 +1100,7 @@ font-size: 2vw;
 
     /* padding: 0; */
     margin: 0;
+    border-radius: 20px;
     
  /* z-index: 0; */
 
@@ -1132,7 +1130,7 @@ font-size: 2vw;
 }
 
 .inner-section>h6{
-font-size: 2vw;
+font-size: 1.5vw;
 
 }
    .logo-div>img{
@@ -1172,3 +1170,13 @@ font-size: 2vw;
         
     }
 }
+
+
+
+
+
+
+
+
+
+
