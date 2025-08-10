@@ -555,7 +555,7 @@ font-size: 2vw;
         grid-template-rows: repeat(2, 1fr); */
     color: white;
    margin-top: 20vh;
-        row-gap: 5vh;
+        row-gap: 1vh;
 }
 
 .inner-sections-container{
@@ -563,19 +563,20 @@ font-size: 2vw;
     width: 90vw;
     height: fit-content;
       display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        /* border: 2px solid red; */
-        column-gap: 2vw;
-        row-gap: 6vw;
+      
+        column-gap: 1vw;
+        row-gap: 1vw;
         padding-bottom: 5vw;
+        margin-top: 3vw;
 
 }
 
  .technologies>h3{
 
-     font-size: 3vw;
-     column-span: 1/3;
+     font-size: 2vw;
+     /* column-span: 1/3; */
  }
 
     .inner-section{
@@ -587,12 +588,14 @@ font-size: 2vw;
     /* border: 2px solid red; */
     /* padding: 0 3vw; */
     padding-bottom: 5%;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 70%;
+    padding-bottom: 5vw;
+    border-radius: 10px;
      /* min-height: fit-content; */
 
     /* padding: 0; */
-    margin: 0;
+   
     
  /* z-index: 0; */
 
@@ -607,28 +610,21 @@ font-size: 2vw;
     /* justify-content: center; */
 }
 
- .logo-div{
 
-    /* margin-top: 30%; */
- margin-top: auto;
-    margin-bottom: auto;
-    /* border: 2px solid green; */
-    padding: 0;
-}
 
-.tools{
+/* .tools{
 
     column-span: 1/3;
-}
+} */
 
 .inner-section>h6{
-font-size: 2vw;
+font-size: 1.2vw;
 
 }
    .logo-div>img{
 
-        width: 10vw;
-        height: 10vw;
+        width: 7vw;
+        height: 7vw;
         object-fit: contain;
         /* box-shadow: 0 0 20px 2px green; */
         border: none;
@@ -641,7 +637,8 @@ font-size: 2vw;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        column-gap: 4vw;
+        column-gap: 1vw;
+        margin-top: 2vw;
 
 
     }
@@ -652,6 +649,21 @@ font-size: 2vw;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         row-gap: 4vh;
+        column-gap: 3vw;
+        margin-top: 0;
+        
+        
+    }
+
+    .front-end-logos>img{
+
+        margin-top: 0;
+
+        width: 5vw;
+        height: 5vw;
+        object-fit: contain;
+        border-radius: 10px;
+        
     }
 }
 
@@ -736,7 +748,7 @@ font-size: 2vw;
 
  .technologies>h3{
 
-     font-size: 2.2vw;
+     font-size: 2vw;
      /* column-span: 1/3; */
  }
 

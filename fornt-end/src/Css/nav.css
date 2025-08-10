@@ -17,7 +17,7 @@
       background-color: rgb(5, 5, 119); 
       background-color:#007bbc;
       background-color:#053048;
-      border-bottom: 1px solid rgb(128, 125, 125);
+      /* border-bottom: 1px solid rgb(128, 125, 125); */
       
  }
 
@@ -25,7 +25,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   max-height: 0;
   opacity: 0;
      background-color: rgb(19, 18, 18);
@@ -55,6 +55,7 @@
   .links-lis {
     /* position: relative; */
     width: 100%;
+    background-color:#212121;
     border-bottom: 0.1px solid rgb(156, 149, 149);
    
     text-align: center;
@@ -76,7 +77,8 @@
   color: rgb(241, 234, 234);
   /* color: black; */
   width: 100%;
-  height: fit-content;
+  height: 100%;
+  /* background-color: green; */
   
   
   /* border: 1px solid red; */
@@ -139,13 +141,18 @@
         /* background-color:rgb(0, 123, 140); */
      /* background-color:  rgb(0, 123, 140); */
     
-    height: 20vw;
+    height: 15vw;
   }
 
   #humbarger {
     row-gap: 5px;
     height: fit-content;
     width: 6vw;
+  }
+
+  .humb-lines{
+
+    height: 1px;
   }
 
  
