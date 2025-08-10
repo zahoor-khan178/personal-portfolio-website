@@ -34,9 +34,9 @@
 
     /* border: 2px solid  rgb(205, 66, 205); */
    
-    box-shadow: 0 0 20px 2px rgb(5, 150, 169);
+    /* box-shadow: 0 0 20px 2px rgb(5, 150, 169);
     box-shadow: 0 0 20px 2px rgb(205, 66, 205);
-    box-shadow: 0 0 20px 1px rgb(255, 255, 255);
+    box-shadow: 0 0 20px 1px rgb(255, 255, 255); */
    
  }
 
@@ -85,11 +85,13 @@
   .download-cv{
 
    background-color:rgb(131, 5, 249);
+   background-color:rgb(26, 161, 206);
  
    color: white;
+
    
-   border: 1px solid rgb(202, 195, 195);
-    box-shadow: 0 0 20px 1px rgb(171, 169, 169);
+   /* border: 1px solid rgb(202, 195, 195); */
+    /* box-shadow: 0 0 20px 1px rgb(171, 169, 169); */
 
  }
 
@@ -657,8 +659,9 @@ font-weight: 500;
 
  
    padding: 0.8vw 1vw;
-   border-radius: 10px;
+   border-radius: 20px;
      font-size: 1.1vw;
+     border: none;
      
    
 
