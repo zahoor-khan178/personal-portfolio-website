@@ -53,9 +53,9 @@
 
 
   .links-lis {
-    /* position: relative; */
+   
     width: 100%;
-    background-color:#212121;
+    
     border-bottom: 0.1px solid rgb(156, 149, 149);
    
     text-align: center;
@@ -169,7 +169,7 @@
 
 
   .links{
-
+background-color:#212121;
   font-size: 4vw;
   padding: 1vw 0;
 
@@ -244,7 +244,7 @@
    background-color:rgb(3, 91, 103);
 } */
   .links{
-
+background-color:#212121;
      font-size: 4vw;
      padding: 3vw 0;
 
