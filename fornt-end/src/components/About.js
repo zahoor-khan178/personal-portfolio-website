@@ -18,12 +18,12 @@ const About = () => {
 
       <>
          <div className="about-container" id='about'>
-            <h2 id='about-heading'>About Me</h2>
-            <p id='about-description'>I'm a passionate MERN Stack Developer with a strong foundation in building full-stack web applications using MongoDB, Express.js, React, and Node.js. With a keen eye for clean code and intuitive UI/UX, I specialize in creating responsive, high-performance single-page applications (SPAs)  that solve real-world problems.<br></br><br></br>
+            <p id='about-heading'>About Me</p>
+            <p id='about-description'>I'm a passionate MERN Stack Developer with a strong foundation in building full-stack web applications using MongoDB, Express.js, React, and Node.js. With a keen eye for clean code and intuitive UI/UX, I specialize in creating responsive, high-performance single-page applications (SPAs)  that solve real-world problems.
 
-               From developing RESTful APIs to designing dynamic front-end interfaces, I thrive on turning complex challenges into elegant, scalable applications. I stay up-to-date with the latest JavaScript frameworks and web development trends, always striving to write efficient and maintainable code.<br></br><br></br>
+               From developing RESTful APIs to designing dynamic front-end interfaces, I thrive on turning complex challenges into elegant, scalable applications. I stay up-to-date with the latest JavaScript frameworks and web development trends, always striving to write efficient and maintainable code.
 
-               Whether it's collaborating with cross-functional teams or working independently, I bring a results-driven mindset and a deep curiosity for learning and innovation. Let’s build something impactful together.
+              <span className="second-para">  Whether it's collaborating with cross-functional teams or working independently, I bring a results-driven mindset and a deep curiosity for learning and innovation. Let’s build something impactful together.</span>
             </p>
          </div>
          <div className='technologies'>
