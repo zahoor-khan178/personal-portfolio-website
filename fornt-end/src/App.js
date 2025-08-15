@@ -2,6 +2,7 @@
 import Navbar from './components/Navbar';
 import Image from './components/Image.container';
 import About from './components/About';
+import Projects from './components/Projects';
 import './Css/main-page.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Image />
       <About />
+      <Projects />
 
       {/* </BrowserRouter> */}
     </div>

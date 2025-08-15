@@ -1,0 +1,85 @@
+
+
+.projects-section{
+
+
+    border: 2px solid red;
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+
+.projects-heading{
+
+    color: white;
+    font-weight: 300;
+}
+.projects-container{
+
+    /* border: 2px solid green; */
+     width: fit-content;
+    height: fit-content;
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(1, 1fr);
+    /* padding: 3vw; */
+    column-gap: 3vw;
+    row-gap: 3vw;
+}
+
+.project{
+
+    border: 1px solid blue;
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: start;
+    
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    background-color:black;
+    background-color:rgb(1, 31, 21) ;
+    /* background-color:rgb(39, 4, 71); */
+}
+
+.project>h3{
+
+    color: white;
+    /* color: rgb(0, 183, 255); */
+    /* color: rgb(132, 0, 255); */
+  
+    /* color: crimson; */
+    /* margin-top: 2vw; */
+}
+
+.budget-img,.ecommerce-img,.textutils-img,.crud-img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  object-position: top center; 
+  border-radius: 0 20px;
+ 
+}
+
+.project-dectiption{
+
+
+    color: rgb(206, 199, 199);
+    font-size: 0.9vw;
+    width:90%;
+    text-align: center;
+       /* color: rgb(0, 225, 255); */
+    /* margin-bottom: -4vw; */
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    
+}
