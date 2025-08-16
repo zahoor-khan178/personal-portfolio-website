@@ -26,7 +26,8 @@ const About = () => {
               <span className="second-para">  Whether it's collaborating with cross-functional teams or working independently, I bring a results-driven mindset and a deep curiosity for learning and innovation. Let’s build something impactful together.</span>
             </p>
          </div>
-         <div className='technologies'>
+
+         <div className='technologies' id='technologies'>
 
             <h3>Technologies</h3>
 

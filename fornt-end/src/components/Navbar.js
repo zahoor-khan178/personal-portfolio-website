@@ -1,5 +1,5 @@
 // import { Link } from 'react-router-dom';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef} from 'react';
 import '../Css/nav.css';
 
 const Navbar = () => {
@@ -42,8 +42,8 @@ const links_container=useRef(null)
 
         <ul className={`links-container ${visible ? 'show' : ''}`} ref={links_container}>
           <li className="links-lis"><a href="#image-container" onClick={toggleNavbar} className="links">Home</a></li>
-          <li className="links-lis"><a href="#about" onClick={toggleNavbar} className="links">About</a></li>
-          <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Projects</a></li>
+          <li className="links-lis"><a href="#technologies" onClick={toggleNavbar} className="links">Technologies</a></li>
+          <li className="links-lis"><a href="#projects" onClick={toggleNavbar} className="links">Projects</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Experience</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Skills</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Services</a></li>
