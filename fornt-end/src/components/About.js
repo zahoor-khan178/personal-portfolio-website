@@ -6,12 +6,12 @@ import cppLogo from '../icons/c++.svg';
 import htmlLogo from '../icons/html.png';
 import cssLogo from '../icons/css.png';
 import bootstrapLogo from '../icons/bootstrap.png';
-import reactLogo from '../icons/react.svg';
 import gitLogo from '../icons/git-icon2.png';
 import githubLogo from '../icons/github.png';
+import sqlLogo from '../icons/sql.png';
+import reactLogo from '../icons/react.svg';
 import nodeLogo from '../icons/node.js.png';
 import expressLogo from '../icons/express.js.png';
-import sqlLogo from '../icons/sql.png';
 import mongodbLogo from '../icons/mongodb.png';
 const About = () => {
    return (

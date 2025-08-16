@@ -448,6 +448,7 @@
         height: 90%;
         padding: 1vw 0;
         border-radius: 20px;
+        border: 1px solid rgb(165, 163, 163);
         
     }
 
@@ -458,6 +459,7 @@
        
         margin-bottom: 4vw;
         row-gap: -3vw;
+        border-bottom: 1px solid red;
 
     }
 
@@ -662,6 +664,7 @@
         height: 90%;
         padding: 1vw 0;
         border-radius: 20px;
+         border: 1px solid rgb(165, 163, 163);
         
     }
 
@@ -670,7 +673,7 @@
         padding-bottom: 1vw;
         justify-self: flex-start;
         /* height: 10%; */
-        /* border: 1px solid yellow; */
+        border-bottom: 1px solid red;
         margin-bottom: 4vw;
         row-gap: -3vw;
 
