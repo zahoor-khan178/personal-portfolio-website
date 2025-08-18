@@ -1,0 +1,179 @@
+.budget-tracker-app {
+    color: white;
+    height: fit-content;
+    width: 100%; /* fixed */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(2, 2, 35);
+      
+    overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+.budget-tracker-app-video-section {
+    background-color: rgb(3, 62, 3);
+    color: white;
+    width: 50%; /* fixed */
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw;
+}
+
+.budget_video {
+    border: 4px solid rgb(8, 149, 237);
+    width: 100%;
+}
+
+.budget-tracker-heading {
+    border-bottom: 2px solid white;
+    text-align: center;
+    margin-top: 3vw;
+    padding-bottom: 1.2vw;
+    font-size: 1.5vw;
+    width: 100%;
+    
+}
+
+.budget-tracker-description {
+    width: 100%;
+    font-size: 1vw;
+    text-align: justify;
+}
+
+.features-section {
+    width: 100%;
+    margin-top: 3vw;
+}
+
+.features-headin {
+    align-self: flex-start;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.8vw;
+    width: fit-content;
+}
+
+.pages-heading {
+    margin-top: 3vw;
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    color: rgb(234, 12, 12);
+    color: skyblue;
+}
+
+.pages-lis {
+    margin-left: 5vw;
+    font-size: 1vw;
+}
+
+.technologes-section {
+    width: 100%;
+    margin-top: 3vw;
+    margin-left: 5vw; /* reduced from 10vw */
+}
+
+.tecnologies-heading {
+    border-bottom: 1px solid white;
+    width: fit-content;
+    font-size: 1.5vw;
+}
+
+.front-end-heading {
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+
+.react {
+    margin-top: 4vw;
+}
+
+.frontend-technologies {
+    font-size: 1vw;
+    margin-top: 0.5vw;
+    margin-left: 3vw;
+    color: skyblue;
+}
+
+.github-link{
+
+    color:rgb(0, 191, 255);
+    margin-left: 5vw;
+    font-size: 1vw;
+}
+
+/* ================= MOBILE STYLES ================= */
+@media screen and (max-width:480px) {
+    .budget-tracker-app {
+        padding: 0;
+        margin: 0;
+        width: 100%; /* fixed */
+        overflow-x: hidden;
+        flex-direction: column; /* stack layout */
+    }
+
+    .budget-tracker-app-video-section {
+        width: 100%; /* fixed */
+        min-height: 100vh;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 5vw;
+    }
+
+    .budget-tracker-heading {
+        font-size: 5vw;
+        margin-top: 6vw;
+        padding-bottom: 2vw;
+        width: 90%;
+    }
+
+    .budget-tracker-description {
+        font-size: 3vw;
+        width: 95%;
+    }
+
+    .features-section {
+        width: 100%;
+        margin-top: 3vw;
+    }
+
+    .features-headin {
+        font-size: 5vw;
+        margin-left: 4vw;
+    }
+
+    .pages-heading {
+        font-size: 4vw;
+    }
+
+    .pages-lis {
+        font-size: 3vw;
+    }
+
+    .tecnologies-heading {
+        font-size: 5vw;
+    }
+
+    .front-end-heading {
+        font-size: 4vw;
+    }
+
+    .react {
+        margin-top: 4vw;
+    }
+
+    .frontend-technologies {
+        font-size: 3vw;
+        margin-top: 2vw;
+        margin-left: 6vw; /* reduced from 18vw to avoid scroll */
+    }
+    .github-link{
+
+    color:rgb(0, 191, 255);
+    margin-left: 5vw;
+    font-size: 3vw;
+}
+}

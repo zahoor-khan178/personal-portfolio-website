@@ -41,7 +41,7 @@ const links_container=useRef(null)
         </div>
 
         <ul className={`links-container ${visible ? 'show' : ''}`} ref={links_container}>
-          <li className="links-lis"><a href="#image-container" onClick={toggleNavbar} className="links">Home</a></li>
+          <li className="links-lis"><a href="#image-container" onClick={toggleNavbar} className="links">About</a></li>
           <li className="links-lis"><a href="#technologies" onClick={toggleNavbar} className="links">Technologies</a></li>
           <li className="links-lis"><a href="#projects" onClick={toggleNavbar} className="links">Projects</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Experience</a></li>
