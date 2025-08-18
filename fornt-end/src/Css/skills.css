@@ -2,9 +2,9 @@
 
 .skills-section{
 
-    width: 100%;
+    width: fit-content;
     height: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: white;
     margin-top: 5vw;
     display: flex;
@@ -15,13 +15,27 @@
 
 .skills-container{
 
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     /* width: 100%; */
 }
 
 .front-end-section{
 
-    /* width: 100vw; */
-    height: 50%;
-    border: 2px solid blue;
+    width: 90vw;
+    height: fit-content;
+    /* border: 2px solid blue; */
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(41, 41, 1);
+}
+
+.front-end-subsections{
+
+    width: 80%;
 }
