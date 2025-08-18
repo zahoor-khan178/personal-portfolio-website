@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Image from './components/Image.container';
 import About from './components/About';
 import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
 
 import Budgetapp from './components/Budgetapp';
 import Crudapplication from './components/Crudapplication';
@@ -24,7 +26,7 @@ function AppContent() {
       {shouldShowNavbar && <Navbar />}
 
       <Routes>
-        <Route path="/" element={<> <Image /> <About /> <Projects /> </>} />
+        <Route path="/" element={<> <Image /> <About /> <Projects /><Experience/><Skills/> </>} />
         <Route path="/budget" element={<Budgetapp />} />
         <Route path="/crud" element={<Crudapplication />} />
         <Route path="/ecommerce" element={<Ecommerceapp />} />

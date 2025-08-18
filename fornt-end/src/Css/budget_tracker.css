@@ -85,7 +85,9 @@
 .front-end-heading {
     font-size: 1.5vw;
     margin-top: 2vw;
+     color: skyblue;
 }
+
 
 .react {
     margin-top: 4vw;
@@ -95,12 +97,12 @@
     font-size: 1vw;
     margin-top: 0.5vw;
     margin-left: 3vw;
-    color: skyblue;
+    
 }
 
 .github-link{
 
-    color:rgb(0, 191, 255);
+    color: white;
     margin-left: 5vw;
     font-size: 1vw;
 }
