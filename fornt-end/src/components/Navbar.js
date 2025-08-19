@@ -2,6 +2,8 @@
 import { useState, useRef} from 'react';
 import '../Css/nav.css';
 
+
+
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
 
@@ -45,8 +47,8 @@ const links_container=useRef(null)
           <li className="links-lis"><a href="#technologies" onClick={toggleNavbar} className="links">Technologies</a></li>
           <li className="links-lis"><a href="#projects" onClick={toggleNavbar} className="links">Projects</a></li>
           <li className="links-lis"><a href="#experience" onClick={toggleNavbar} className="links">Experience</a></li>
-          <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Skills</a></li>
-          <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Services</a></li>
+          <li className="links-lis"><a href="#skills" onClick={toggleNavbar} className="links">Skills</a></li>
+          <li className="links-lis"><a href="#services" onClick={toggleNavbar} className="links">Services</a></li>
           <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Contact</a></li>
         </ul>
       </nav>

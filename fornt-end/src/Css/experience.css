@@ -5,12 +5,12 @@
 {
 
     color: rgb(255, 255, 255);
-    /* border: 2px solid red; */
+   
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* margin-bottom: 5vw; */
+   
     scroll-margin-top: 7vw;
    
 }
@@ -19,7 +19,7 @@
 
     border: 1px solid rgb(141, 140, 140);
     /* position: absolute; */
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,28 +33,26 @@
 .experience-heading{
 
     font-size: 2vw;
-    /* border-bottom: 2px solid white; */
+    
     width: fit-content;
+    font-weight: 400;
 }
 
 .intern-software-developer-heading{
   font-weight: 200;  
   margin-top: -0.5vw;
-  color: rgb(4, 180, 250);
+ 
     color:yellow;
-    /* color:rgb(255, 0, 51); */
-    /* color:chartreuse; */
+  
 
 }
 
 .company-name{
       font-weight: 200; 
       margin-top: -1vw;
-       color: rgb(4, 180, 250);
-       /* color: rgb(110, 110, 6); */
-        /* color:rgb(255, 0, 51); */
+     
        
-         /* color: rgb(0, 255, 0); */
+       
 }
 
 .expreience-time{
@@ -64,7 +62,7 @@
 
 li{
 
-    font-size: 1vw;
+    font-size: 0.9vw;
 }
 
 
@@ -81,7 +79,7 @@ li{
 
     .experience-section{
 
-        scroll-margin-top: 15vw;
+        scroll-margin-top: 20vw;
 
     }
 
@@ -122,6 +120,12 @@ li{
 
 
 @media screen and (max-width: 480px) {
+
+
+    .experience-section{
+
+        scroll-margin-top: 25vw;
+    }
 
 
 li{

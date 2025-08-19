@@ -206,6 +206,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+       
 }
 
     #about-heading {
@@ -242,6 +243,7 @@
 
         color: white;
         margin-top: 0vh;
+         scroll-margin-top:15vw ;
  }
 
     .technologies>h3 {
