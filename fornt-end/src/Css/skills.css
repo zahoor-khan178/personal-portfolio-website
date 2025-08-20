@@ -30,14 +30,15 @@
 
     width: 90vw;
     height: fit-content;
-    /* border: 2px solid blue; */
+  
         display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     row-gap: 2vw;
-    background-color: rgb(41, 41, 1);
+   
       background-color:rgb(9, 104, 72);
+     
       padding-bottom: 5vw;
     
     border-radius: 20px;
@@ -55,21 +56,22 @@
 .front-end-subsections{
 
     width: 80%;
-    background-color: rgb(31, 30, 30);
+  
     
-    background-color: rgb(61, 61, 3);
+    background-color: rgb(67, 67, 1);
     padding: 0 1vw;
     border-radius: 10px;
     border: 1px solid rgb(156, 153, 153);
     font-size: 1vw;
     color: rgb(238, 233, 233);
+    
 }
 
 
 .front-end-subsections:hover{
 
 
-    background-color: black;
+    background-color: rgb(39, 37, 37);
 }
 
 

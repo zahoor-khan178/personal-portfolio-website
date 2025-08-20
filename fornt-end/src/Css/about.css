@@ -30,6 +30,7 @@
     width: 90vw;
     height: fit-content;
     background-color: rgb(46, 42, 42);
+   
     
 
 
@@ -37,6 +38,12 @@
 
 }
 
+.inner-section:hover{
+
+     background-color: rgb(255, 255, 255);
+     color: black;
+
+}
 .inner-section>h6 {
 
     position: relative;
@@ -45,8 +52,10 @@
    width: 100%;
     text-align: center;
    
+   
 
 }
+
 
 
 

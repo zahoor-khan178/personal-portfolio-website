@@ -14,8 +14,8 @@ import responsive_design from '../thumbnails/responsive_design.png';
 const Services = () => {
     return (
         <div className="services-section" id='services'>
-        <h2> What I Offer</h2>
-        <p>Comprehensive web development services — from responsive UI to secure APIs.</p>
+        <h2 className='section-heading'> Services I Offer</h2>
+        <p className='service-general-description'>Comprehensive web development services — from responsive UI to secure APIs.</p>
        
            <div className='services-container'>
 
@@ -23,7 +23,7 @@ const Services = () => {
                 <div className='heading_container'><h4>Web Development</h4></div>
                 
                 <img src={web_logo} className='web-development-logo' alt="web "  />
-                <p>As a skilled Web Developer, I specialize in building fast, responsive, and user-friendly websites tailored to client needs. From creating dynamic single-page applications to developing fully functional e-commerce platforms, I combine clean code practices with modern frameworks to deliver seamless user experiences. My expertise includes front-end development with HTML, CSS, JavaScript, and React.js, as well as back-end solutions using Node.js, Express.js, and MongoDB.</p>
+                <p>As a skilled Web Developer, I specialize in building fast, responsive, and user-friendly websites tailored to client needs. From creating dynamic single-page applications to developing fully functional e-commerce platforms, I combine clean code practices with modern frameworks to deliver seamless user experiences. My expertise includes HTML, CSS, JavaScript, React.js,  Node.js, Express.js, and MongoDB.</p>
 
              </div>
             {/* <div  className='mobile-app-devlopement-box box'>
