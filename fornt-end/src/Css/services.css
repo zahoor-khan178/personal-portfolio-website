@@ -1,20 +1,20 @@
 
 .services-section{
     color: white;
-    /* border: 2px solid rgb(156, 153, 153); */
+  
     margin-top: 5vw;
      width: fit-content;
      display: flex;
     flex-direction: column;
       justify-content: center;
     align-items: center;
-    margin-bottom: 15vw;
+   
     scroll-margin-top:5vw ;
 }
 
 .services-container{
 
-    /* border: 2px solid rgb(238, 0, 0); */
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -28,36 +28,39 @@
 
 .box{
 
-    border: 1px solid rgb(16, 159, 215);
+    /* border: 1px solid rgb(16, 159, 215); */
     width: 25vw;
-    height: 33vw;
+    height: 35vw;
      display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    color: black;
     background-color: white;
-    border-radius: 10px;
-    /* overflow-y: scroll; */
-    /* padding: 2vw; */
+    border-radius: 20px;
+    color: black;
+    
   
 }
 
 .box:hover{
 
     color: white;
-    background-color: green;
+    background-color: rgb(5, 78, 5);
+}
+.box:hover p{
+
+    color: white;
+   
 }
 
 .box>h4{
 
     font-size: 1.5vw;
     font-weight: 500;
-    /* border-bottom: 2px solid rgb(255, 255, 255); */
-    /* height: 8vw; */
-    padding: 1vw 0;
+   
+    padding: 1vw 2vw;
     margin: 0;
-    width: 100%;
+    width:80%;
     text-align: center;
     align-content: center;
     
@@ -66,8 +69,9 @@
 .box>p{
 
     font-size: 1vw;
-    /* color: rgb(228, 224, 224); */
+   
     text-align: center;
+     color: black;
    
     
 }
@@ -76,7 +80,9 @@
 .mobile-app-evelopment-logo,.ui-ux-logo,.web-development-logo{
 
     width: 100%;
-    height: 40%;
+    height: 50%;
+     border-radius: 20px;
+     border: 1px solid rgb(16, 159, 215);
    
     
 }
@@ -140,6 +146,38 @@
     
 }
 
+}
+
+
+@media screen and (max-width:768px) and (min-width:481px)
+{
+
+
+     .service-general-description{
+
+        text-align: center;
+        font-size: 2vw;
+    }
+    .box{
+
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .box>p{
+
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:769px)
+{
+
+    .box{
+
+        width: 30vw;
+        height: 40vw;
+    }
 }
 
 

@@ -41,7 +41,11 @@
 .inner-section:hover{
 
      background-color: rgb(255, 255, 255);
+       background-color: rgb(9, 70, 94);
+       /* background-color: rgb(19, 243, 19); */
+
      color: black;
+     color: white;
 
 }
 .inner-section>h6 {

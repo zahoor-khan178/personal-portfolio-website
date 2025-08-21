@@ -49,7 +49,7 @@ const links_container=useRef(null)
           <li className="links-lis"><a href="#experience" onClick={toggleNavbar} className="links">Experience</a></li>
           <li className="links-lis"><a href="#skills" onClick={toggleNavbar} className="links">Skills</a></li>
           <li className="links-lis"><a href="#services" onClick={toggleNavbar} className="links">Services</a></li>
-          <li className="links-lis"><a href="/" onClick={toggleNavbar} className="links">Contact</a></li>
+          <li className="links-lis"><a href="#contacts" onClick={toggleNavbar} className="links">Contact</a></li>
         </ul>
       </nav>
 

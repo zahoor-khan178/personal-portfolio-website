@@ -37,8 +37,9 @@ Dynamic <span className='mern-span mern'>MERN</span> Stack Developer || Crafting
         </div>
         <div className='download-cv-container'>
             <button className='download-cv cv-container-buttons' onClick={handleDownload }>download cv</button>
-            <a className='linked-in cv-container-buttons' href='https://www.linkedin.com/in/zahoor-khan-170363324/' target="_blank"    rel="noopener noreferrer"><img src={linkedinLogo} alt='linked in'></img></a>
-            <a className='github cv-container-buttons' href='https://github.com/zahoor-khan178' target="_blank"    rel="noopener noreferrer"><img src={githubLogo} alt='github'></img></a>
+            <a className='download-cv ' id='hire-me' href='#contacts'>Hire Me</a>
+            {/* <a className='linked-in cv-container-buttons' href='https://www.linkedin.com/in/zahoor-khan-170363324/' target="_blank"    rel="noopener noreferrer"><img src={linkedinLogo} alt='linked in'></img></a>
+            <a className='github cv-container-buttons' href='https://github.com/zahoor-khan178' target="_blank"    rel="noopener noreferrer"><img src={githubLogo} alt='github'></img></a> */}
         </div>
         </>
     )
