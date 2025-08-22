@@ -36,10 +36,10 @@ const Projects = () => {
                         <p className='project-dectiption budget-decription'> This is a full-stack budget tracker application built using the MERN stack. It allows users to track their income and expenses. This project leverages JWTs for secure authentication and authorization.</p>
 
                         <div className='project-icons'>
-                         <img src={mongodbLogo} alt='abc'></img>
-                            <img src={expressLogo} alt='abc'></img>
-                            <img src={reactLogo} alt='abc'></img>
-                            <img src={nodeLogo} alt='abc'></img>
+                             <img src={mongodbLogo} alt='mongogdb logo'></img>
+                            <img src={expressLogo} alt='express.js logo'></img>
+                            <img src={reactLogo} alt='react.js logo'></img>
+                            <img src={nodeLogo} alt='node.js logo'></img>
 
                         </div>
 
@@ -59,10 +59,10 @@ const Projects = () => {
                         <p className='project-dectiption budget-decription'> This E-Commerce project is built using the MEARN stack. It provides a comprehensive platform for managing products in an online store, secured with JSON Web Tokens (JWT)</p>
 
                         <div className='project-icons'>
-                            <img src={mongodbLogo} alt='abc'></img>
-                            <img src={expressLogo} alt='abc'></img>
-                            <img src={reactLogo} alt='abc'></img>
-                            <img src={nodeLogo} alt='abc'></img>
+                               <img src={mongodbLogo} alt='mongogdb logo'></img>
+                            <img src={expressLogo} alt='express.js logo'></img>
+                            <img src={reactLogo} alt='react.js logo'></img>
+                            <img src={nodeLogo} alt='node.js logo'></img>
 
                         </div>
 
@@ -76,10 +76,10 @@ const Projects = () => {
                         <p className='project-dectiption budget-decription'> TextUtils is a text analyzing tool developed to help users manipulate and analyze their text efficiently.</p>
 
                         <div className='project-icons'>
-                           <img src={mongodbLogo} alt='abc'></img>
-                            <img src={expressLogo} alt='abc'></img>
-                            <img src={reactLogo} alt='abc'></img>
-                            <img src={nodeLogo} alt='abc'></img>
+                             <img src={mongodbLogo} alt='mongogdb logo'></img>
+                            <img src={expressLogo} alt='express.js logo'></img>
+                            <img src={reactLogo} alt='react.js logo'></img>
+                            <img src={nodeLogo} alt='node.js logo'></img>
 
                         </div>
 
@@ -93,10 +93,10 @@ const Projects = () => {
                         <p className='project-dectiption budget-decription'> This full stack CRUD application allows users to manage their registration details effectively. </p>
 
                         <div className='project-icons'>
-                          <img src={mongodbLogo} alt='abc'></img>
-                            <img src={expressLogo} alt='abc'></img>
-                            <img src={reactLogo} alt='abc'></img>
-                            <img src={nodeLogo} alt='abc'></img>
+                          <img src={mongodbLogo} alt='mongogdb logo'></img>
+                            <img src={expressLogo} alt='express.js logo'></img>
+                            <img src={reactLogo} alt='react.js logo'></img>
+                            <img src={nodeLogo} alt='node.js logo'></img>
 
                         </div>
 
