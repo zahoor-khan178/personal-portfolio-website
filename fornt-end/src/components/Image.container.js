@@ -1,8 +1,6 @@
 
 import img from './profile-image.jpeg'
-import githubLogo from '../icons/github.png';
-import linkedinLogo from '../icons/linkedin.png';
-// import  cv from '../icons/Zahoor-CV.pdf';
+
 import '../Css/image.css';
 
 const Image = () => {
