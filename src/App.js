@@ -40,7 +40,7 @@ function AppContent() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/personal-portfolio-website">
       <ScrollToTop />
       <AppContent />
     </BrowserRouter>
