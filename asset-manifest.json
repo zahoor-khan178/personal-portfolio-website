@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/personal-portfolio-website/static/css/main.135308ca.css",
-    "main.js": "/personal-portfolio-website/static/js/main.ad06ab87.js",
+    "main.js": "/personal-portfolio-website/static/js/main.0c47cbea.js",
     "static/js/453.d4997798.chunk.js": "/personal-portfolio-website/static/js/453.d4997798.chunk.js",
     "static/media/budget.mp4": "/personal-portfolio-website/static/media/budget.ae880f5d0869c447f011.mp4",
     "static/media/ecommerceapp.mp4": "/personal-portfolio-website/static/media/ecommerceapp.cb00c0167616219cef1a.mp4",
+    "static/media/textutil video.mp4": "/personal-portfolio-website/static/media/textutil video.4dfb3faeed5f0a0175fe.mp4",
+    "static/media/crud app video.mp4": "/personal-portfolio-website/static/media/crud app video.323539b2f7b2ee6b37c1.mp4",
     "static/media/ecommerce app.png": "/personal-portfolio-website/static/media/ecommerce app.24ea98c390ac15edd7e5.png",
     "static/media/profile-image.jpeg": "/personal-portfolio-website/static/media/profile-image.59988337fb154d8637f0.jpeg",
     "static/media/ui-ux.png": "/personal-portfolio-website/static/media/ui-ux.ff1f75b3c8c3412b9f7d.png",
@@ -32,11 +34,11 @@
     "static/media/c++.svg": "/personal-portfolio-website/static/media/c++.67546ee38bb1ab4e7b6e2ed85b80f2fb.svg",
     "index.html": "/personal-portfolio-website/index.html",
     "main.135308ca.css.map": "/personal-portfolio-website/static/css/main.135308ca.css.map",
-    "main.ad06ab87.js.map": "/personal-portfolio-website/static/js/main.ad06ab87.js.map",
+    "main.0c47cbea.js.map": "/personal-portfolio-website/static/js/main.0c47cbea.js.map",
     "453.d4997798.chunk.js.map": "/personal-portfolio-website/static/js/453.d4997798.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.135308ca.css",
-    "static/js/main.ad06ab87.js"
+    "static/js/main.0c47cbea.js"
   ]
 }
