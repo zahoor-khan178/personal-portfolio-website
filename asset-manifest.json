@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio-website/static/css/main.135308ca.css",
+    "main.js": "/personal-portfolio-website/static/js/main.ad06ab87.js",
+    "static/js/453.d4997798.chunk.js": "/personal-portfolio-website/static/js/453.d4997798.chunk.js",
+    "static/media/budget.mp4": "/personal-portfolio-website/static/media/budget.ae880f5d0869c447f011.mp4",
+    "static/media/ecommerceapp.mp4": "/personal-portfolio-website/static/media/ecommerceapp.cb00c0167616219cef1a.mp4",
+    "static/media/ecommerce app.png": "/personal-portfolio-website/static/media/ecommerce app.24ea98c390ac15edd7e5.png",
+    "static/media/profile-image.jpeg": "/personal-portfolio-website/static/media/profile-image.59988337fb154d8637f0.jpeg",
+    "static/media/ui-ux.png": "/personal-portfolio-website/static/media/ui-ux.ff1f75b3c8c3412b9f7d.png",
+    "static/media/web eng.png": "/personal-portfolio-website/static/media/web eng.60378aa251844443dddb.png",
+    "static/media/security_logo.png": "/personal-portfolio-website/static/media/security_logo.e8513480452c05ad2b10.png",
+    "static/media/responsive_design.png": "/personal-portfolio-website/static/media/responsive_design.87ddaff76fb914709b6f.png",
+    "static/media/restful api logo.png": "/personal-portfolio-website/static/media/restful api logo.f905916177aae97095b2.png",
+    "static/media/ecommerce_logo.png": "/personal-portfolio-website/static/media/ecommerce_logo.625bf1caa988b9ef3b08.png",
+    "static/media/budget summary.png": "/personal-portfolio-website/static/media/budget summary.8f0896d3d34670105868.png",
+    "static/media/data_design-logo.png": "/personal-portfolio-website/static/media/data_design-logo.ade91b7bf0f07575c542.png",
+    "static/media/real_time_app_logo.png": "/personal-portfolio-website/static/media/real_time_app_logo.5bb46cbdda810bd73207.png",
+    "static/media/crud app.png": "/personal-portfolio-website/static/media/crud app.9fdf70a27b38a124803d.png",
+    "static/media/phone.png": "/personal-portfolio-website/static/media/phone.9ddbda34f6776ff6b185.png",
+    "static/media/git-icon2.png": "/personal-portfolio-website/static/media/git-icon2.0466507c4b9f6644df88.png",
+    "static/media/textutils.png": "/personal-portfolio-website/static/media/textutils.729c7c531e7849f0fdf5.png",
+    "static/media/node.js.png": "/personal-portfolio-website/static/media/node.js.faeed19491bf957a96c0.png",
+    "static/media/mail.png": "/personal-portfolio-website/static/media/mail.7f0432c3a7d36f687c69.png",
+    "static/media/bootstrap.png": "/personal-portfolio-website/static/media/bootstrap.0ed4a7a6afd2dd97161a.png",
+    "static/media/mongodb.png": "/personal-portfolio-website/static/media/mongodb.b723bb18907da666f951.png",
+    "static/media/github.png": "/personal-portfolio-website/static/media/github.1d3ebee440ef815ac704.png",
+    "static/media/css.png": "/personal-portfolio-website/static/media/css.b4aae999098dfdbe5e1f.png",
+    "static/media/linkedin.png": "/personal-portfolio-website/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/javascript-icon4.png": "/personal-portfolio-website/static/media/javascript-icon4.0b4b1148616a31db6449.png",
+    "static/media/react.svg": "/personal-portfolio-website/static/media/react.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/c++.svg": "/personal-portfolio-website/static/media/c++.67546ee38bb1ab4e7b6e2ed85b80f2fb.svg",
+    "index.html": "/personal-portfolio-website/index.html",
+    "main.135308ca.css.map": "/personal-portfolio-website/static/css/main.135308ca.css.map",
+    "main.ad06ab87.js.map": "/personal-portfolio-website/static/js/main.ad06ab87.js.map",
+    "453.d4997798.chunk.js.map": "/personal-portfolio-website/static/js/453.d4997798.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.135308ca.css",
+    "static/js/main.ad06ab87.js"
+  ]
+}
