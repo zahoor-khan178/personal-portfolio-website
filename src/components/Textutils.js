@@ -1,6 +1,7 @@
 import '../Css/budget_tracker.css'
 
-import textutils from '../thumbnails/textutils.png';
+// import textutils from '../thumbnails/textutils.png';
+import textutilsVideo from '../projects.videos/textutil video.mp4';
 
 
 const Textutils = () => {
@@ -8,7 +9,9 @@ const Textutils = () => {
         <div className='budget-tracker-app'>
             <div className='budget-tracker-app-video-section'>
 
-              <img src={textutils} alt="crud" className='budget_video' />
+              {/* <img src={textutils} alt="crud" className='budget_video' /> */}
+              <video src={textutilsVideo} className='budget_video' controls autoPlay muted loop ></video>
+              
                 <h1 className='budget-tracker-heading'>Textutils</h1>
                 <p className='budget-tracker-description'>TextUtils is a text analyzing tool developed to help users manipulate and analyze their text efficiently. This web application provides features such as counting words and characters, as well as various text transformations. The user-friendly interface is built using HTML, CSS, Bootstrap, and React.js.<br></br><br></br>
 
