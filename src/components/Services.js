@@ -23,7 +23,7 @@ const Services = () => {
                 
                 <img src={web_logo} className='web-development-logo' alt="web "  />
                 <div className='heading_container'><h4>Web Development</h4></div>
-                <p>As a skilled Web Developer, I specialize in building fast, responsive, and user-friendly websites tailored to client needs. From creating dynamic single-page applications to developing fully functional e-commerce platforms, I combine clean code practices with modern frameworks to deliver seamless user experiences. My expertise includes HTML, CSS, JavaScript, React.js,  Node.js, Express.js, and MongoDB.</p>
+                <p>Skilled Web Developer specializing in fast, responsive, user-friendly websites. Experienced in SPAs and e-commerce, leveraging clean code and modern frameworks including HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB.</p>
 
              </div>
             
@@ -31,41 +31,41 @@ const Services = () => {
            
                 <img src={ui_ux} className='ui-ux-logo' alt="ui/ux" />
                 <div className='heading_container'><h4>UI/UX Design</h4></div>
-                <p>I create modern, user-focused designs that balance aesthetics with functionality. My goal is to deliver intuitive digital experiences that not only look visually appealing but also guide users effortlessly through every interaction. With a strong eye for design and a developer’s mindset, I ensure that every interface is not only beautiful but also practical, scalable, and easy to implement in development.</p>
+                <p>I design modern, user-focused interfaces balancing aesthetics and functionality. Skilled in creating intuitive, visually appealing, and scalable digital experiences that guide users seamlessly while ensuring practicality and ease of development.</p>
             </div>
             <div className='ui/ux-devlopement-box box'>
                
                 <img src={restful_api} className='ui-ux-logo' alt="ui/ux" />
-                <h4> API & Backend Development</h4>
-                <p>I specialize in building secure, scalable, and high-performance backends using Node.js and Express.js. With well-structured RESTful APIs, I ensure smooth communication between the frontend and backend, enabling applications to run seamlessly. From authentication systems to third-party integrations, I design robust server-side solutions that power modern web and mobile applications.</p>
+                <h4> RESTful API & Backend Development</h4>
+                <p>Specialize in building secure, scalable backends with Node.js and Express.js. Skilled in RESTful APIs, authentication, and integrations, delivering robust server-side solutions that ensure seamless communication and power modern applications.</p>
             </div>
             <div className='ui/ux-devlopement-box box'>
                 
                 <img src={data_design} className='ui-ux-logo' alt="ui/ux" />
                  <div className='heading_container'><h4>Database Design & Management</h4></div>
-                <p>I design and manage efficient, scalable, and secure databases that form the backbone of modern applications. With expertise in MongoDB, I create well-structured schemas and optimized queries to ensure smooth data storage, retrieval, and performance. My approach focuses on building databases that are not only reliable but also flexible enough to grow with your application.</p>
+                <p>I design and manage efficient, scalable, and secure databases with expertise in MongoDB. Skilled in schema design and optimized queries, ensuring reliable, high-performance, and flexible data solutions for modern applications.</p>
             </div>
             <div className='ui/ux-devlopement-box box'>
              
                 <img src={security_logo} className='ui-ux-logo' alt="ui/ux" />
                  <div className='heading_container'><h4>Authentication & Authorization</h4></div>
-                <p>I implement secure and reliable authentication systems that protect your applications and users. From simple login forms to advanced role-based access control (RBAC), I ensure that only the right users have access to the right features. With expertise in JWT I build authentication flows that are both seamless and secure.</p>
+                <p>I implement secure, reliable authentication systems with expertise in JWT. Skilled in login flows and role-based access control (RBAC), ensuring seamless user experience while protecting applications and managing feature access.</p>
             </div>
             <div className='ui/ux-devlopement-box box'>
                 <img src={ecommerce_logo} className='ui-ux-logo' alt="ui/ux" />
                 <h4>E-commerce & Business Solutions</h4>
-                <p>I develop powerful e-commerce platforms and custom business applications that help brands grow and streamline operations. From user-friendly online stores to enterprise-level dashboards, I combine functionality with seamless design to deliver solutions that drive sales, efficiency, and customer satisfaction.</p>
+                <p>I develop scalable e-commerce platforms and custom business applications. Skilled in combining functionality with seamless design to deliver user-friendly stores and enterprise dashboards that drive sales, efficiency, and customer satisfaction.</p>
             </div>
             <div className='ui/ux-devlopement-box box'>
                
                 <img src={real_time_app} className='ui-ux-logo' alt="ui/ux" />
                  <div className='heading_container'><h4>Real-time Applications</h4></div>
-                <p>I build real-time applications that deliver instant communication, live updates, and seamless interactions. Using WebSockets, Socket.io, and MERN stack technologies, I create fast and reliable systems that keep users connected without delays. From chat platforms to live dashboards, I ensure smooth performance even under heavy traffic.</p>
+                <p>I build real-time applications with WebSockets, Socket.io, and MERN stack. Skilled in delivering instant communication, live updates, and seamless interactions through chat platforms and dashboards, ensuring smooth performance under heavy traffic.</p>
             </div>
             <div className='ui/ux-devlopement-box box'>
                 <img src={responsive_design} className='ui-ux-logo' alt="ui/ux" />
                 <h4>Responsive Frontend Development</h4>
-                <p>I build modern, responsive, and interactive user interfaces that provide seamless experiences across all devices. Using React.js, HTML, CSS, and JavaScript, I transform ideas into visually appealing and highly functional frontends that engage users and align with your brand identity. My focus is on creating designs that are not only attractive but also optimized for performance and usability.</p>
+                <p>I build modern, responsive, and interactive UIs with React.js, HTML, CSS, and JavaScript. Focused on performance, usability, and brand alignment, I create engaging, visually appealing, and highly functional frontends.</p>
             </div>
            
 

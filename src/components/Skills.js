@@ -8,15 +8,15 @@ const Skils = () => {
             <h1 className="skills-heading">Skills</h1>
             <div className="skills-container">
                 <div className='front-end-section technologies-section'>
-                    <h3 className='front-end-technologies-heading'>Programing Languages</h3>
+                    <h3 className='front-end-technologies-heading'>Programming Languages</h3>
                     <div className='html-container front-end-subsections'>
                         <h4>C++</h4>
-                        <p> Strong foundation in C++ programming with expertise in object-oriented principles, data structures, and algorithms. Skilled in writing efficient, optimized code and experienced in using the Standard Template Library (STL). Gained proficiency through academic work, coding practice, and problem-solving challenges, with a focus on developing logical thinking and clean coding practices.</p>
+                        <p> Strong C++ foundation with expertise in OOP, data structures, and algorithms. Skilled in efficient coding using STL, honed through academics and challenges, emphasizing logical thinking and clean practices.</p>
                     </div>
                     <div className='css-container front-end-subsections'>
 
                         <h4>JavaScrapt</h4>
-                        <p>Proficient in JavaScript with strong expertise in building dynamic, interactive, and responsive web applications. Skilled in modern ES6+ features, DOM manipulation, event handling, and asynchronous programming using Promises and async/await. Experienced in writing clean, modular, and reusable code, while leveraging JavaScript to enhance performance and user experience across the stack.</p>
+                        <p>Proficient in JavaScript for building dynamic, responsive web apps. Skilled in ES6+, DOM, events, and async programming. Experienced in clean, modular code to optimize performance and user experience.</p>
                     </div>
 
 
@@ -29,12 +29,12 @@ const Skils = () => {
                     <h3 className='front-end-technologies-heading'>Front-End Technologies</h3>
                     <div className='html-container front-end-subsections'>
                         <h4>HTML</h4>
-                        <p> Proficient in crafting clean, semantic, and accessible HTML structures to build the foundation of responsive and SEO-friendly web applications. Skilled in leveraging modern HTML5 features such as forms, multimedia, canvas, and semantic tags to enhance usability, maintainability, and performance</p>
+                        <p> Proficient in creating clean, semantic, and accessible HTML for responsive, SEO-friendly apps. Skilled in HTML5 features forms, multimedia, canvas, semantic tags to improve usability, maintainability, and performance.</p>
                     </div>
                     <div className='css-container front-end-subsections'>
 
                         <h4>CSS</h4>
-                        <p> Expert in designing responsive, visually appealing, and user-friendly interfaces using CSS3. Skilled in leveraging modern features such as Flexbox, Grid, animations, and transitions to create dynamic layouts. Experienced in writing maintainable, reusable styles with attention to performance, accessibility, and cross-browser compatibility.</p>
+                        <p> Expert in designing responsive, user-friendly interfaces with CSS3. Skilled in Flexbox, Grid, animations, and transitions, creating dynamic layouts with reusable styles focused on performance, accessibility, and cross-browser compatibility.</p>
                     </div>
                     <div className='bootstrape-container front-end-subsections'>
 
@@ -45,7 +45,7 @@ const Skils = () => {
                     <div className='react-container front-end-subsections'>
 
                         <h4>REACT.JS</h4>
-                        <p> Highly skilled in building dynamic, scalable, and interactive user interfaces using React.js. Experienced in leveraging React hooks, state management, and component-based architecture to create reusable and efficient front-end solutions. Proficient in integrating RESTful APIs, optimizing performance, and ensuring responsive, accessible web applications.</p>
+                        <p> Skilled in building dynamic, scalable UIs with React.js. Experienced in hooks, state management, and component architecture, creating reusable, efficient solutions while integrating APIs, optimizing performance, and ensuring responsive, accessible apps.</p>
                     </div>
 
                     </div>
@@ -56,12 +56,12 @@ const Skils = () => {
                         <h3 className='front-end-technologies-heading'>Back-End Technologies</h3>
                         <div className='html-container front-end-subsections'>
                             <h4>Node.js</h4>
-                            <p> Proficient in building scalable, high-performance server-side applications using Node.js. Skilled in developing RESTful APIs, handling asynchronous operations, and integrating databases such as MongoDB. Experienced in implementing authentication, middleware, and modular architectures to ensure secure, efficient, and maintainable backend solutions</p>
+                            <p> Proficient in building scalable, high-performance backends with Node.js. Skilled in RESTful APIs, async operations, and MongoDB integration, with experience in authentication, middleware, and modular architectures for secure, maintainable solutions.</p>
                         </div>
                         <div className='css-container front-end-subsections'>
 
                             <h4>Express.js</h4>
-                            <p>Proficient in Express.js for building fast, scalable, and secure backend applications. Skilled in designing RESTful APIs, handling middleware, managing routing, and integrating databases. Experienced in implementing authentication/authorization mechanisms, error handling, and performance optimization to deliver reliable server-side solutions.</p>
+                            <p>Proficient in Express.js for building fast, scalable backends. Skilled in RESTful APIs, middleware, routing, and database integration, with experience in authentication, error handling, and performance optimization for reliable server-side solutions.</p>
                         </div>
 
 
@@ -73,19 +73,19 @@ const Skils = () => {
                         <h3 className='front-end-technologies-heading'>Databases</h3>
                         <div className='html-container front-end-subsections'>
                             <h4>MongoDB</h4>
-                            <p>Proficient in MongoDB, with expertise in designing and managing NoSQL databases to handle large-scale, unstructured data. Skilled in schema design, indexing, and aggregation pipelines for efficient querying and performance optimization. Experienced in integrating MongoDB with Node.js/Express applications, ensuring seamless data flow, scalability, and high availability.</p>
+                            <p>Proficient in MongoDB for designing and managing NoSQL databases. Skilled in schema design, indexing, and aggregation, with experience integrating Node.js/Express apps to ensure seamless data flow, scalability, and high availability.</p>
                         </div>
                         <div className='css-container front-end-subsections'>
 
                             <h4>SQL</h4>
-                            <p>Proficient in SQL with strong expertise in designing, querying, and managing relational databases. Skilled in writing complex queries, joins, subqueries, and stored procedures to optimize data retrieval and manipulation. Experienced in database normalization, indexing, and performance tuning to ensure efficiency and scalability. Adept at working with MySQL, PostgreSQL, or similar RDBMS platforms to support data-driven applications.</p>
+                            <p>Proficient in SQL for designing and managing relational databases. Skilled in complex queries, joins, subqueries, and stored procedures, with experience in normalization, indexing, performance tuning, and working with MySQL/PostgreSQL.</p>
                         </div>
 
 
                         <div className='css-container front-end-subsections'>
 
                             <h4>RDBMS</h4>
-                            <p>Proficient in designing and managing Relational Database Management Systems (RDBMS) with strong knowledge of SQL for querying, data manipulation, and optimization. Skilled in database normalization, indexing, and schema design to ensure efficiency and data integrity. Experienced in writing complex queries, stored procedures, and triggers, as well as handling transactions and ensuring ACID compliance for reliable database operations.</p>
+                            <p>Proficient in designing and managing RDBMS with strong SQL expertise. Skilled in normalization, indexing, schema design, complex queries, stored procedures, and transactions, ensuring efficiency, integrity, ACID compliance, and reliable database operations.</p>
                         </div>
 
 
@@ -120,7 +120,7 @@ const Skils = () => {
                         <h3 className='front-end-technologies-heading'>Methodologies and Patterns</h3>
                         <div className='html-container front-end-subsections'>
                             <h4>Agile Methodology</h4>
-                            <p>Strong understanding of Agile methodology with expertise in Scrum ceremonies, sprint planning, backlog management, and iterative development. Experienced in fostering collaboration within cross-functional teams, adapting to evolving project requirements, and delivering value-driven solutions in fast-paced environments</p>
+                            <p>Strong understanding of Agile methodology with expertise in Scrum ceremonies, sprint planning, backlog management, and iterative development. Experienced in collaboration, adaptability, and delivering value-driven solutions in dynamic, fast-paced environments.</p>
                         </div>
                         <div className='css-container front-end-subsections'>
 
@@ -144,7 +144,7 @@ const Skils = () => {
                         <div className='css-container front-end-subsections'>
 
                             <h4>DSA</h4>
-                            <p>Strong command of Data Structures and Algorithms with expertise in arrays, linked lists, stacks, queues, trees, graphs, and hash-based structures. Experienced in solving complex computational problems using efficient algorithms, including searching, sorting, recursion, and dynamic programming. Adept at applying DSA concepts to write optimized and maintainable code.</p>
+                            <p>Strong command of Data Structures and Algorithms, including arrays, linked lists, stacks, queues, trees, graphs, and hashing. Experienced in solving complex problems with efficient algorithms, recursion, dynamic programming, and optimized coding.</p>
                         </div>
 
 

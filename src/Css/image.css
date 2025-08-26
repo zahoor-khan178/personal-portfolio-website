@@ -401,7 +401,9 @@ color: rgb(5, 246, 165);
 
     
     color: rgb(0, 225, 255);
-    font-weight: 600;
+    /* color: #FFD700; */
+    
+    font-weight: 500;
 
 
   }
@@ -409,7 +411,7 @@ color: rgb(5, 246, 165);
   .mern {
   
     color: rgb(253, 0, 253);
-    font-weight: 600;
+  /* color: #FFD700; */
    
 
     font-weight: 500;

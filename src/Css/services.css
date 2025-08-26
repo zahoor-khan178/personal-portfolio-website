@@ -70,8 +70,9 @@
 
     font-size: 1vw;
    
-    text-align: center;
+    text-align: justify;
      color: black;
+     padding: 0 1vw;
    
     
 }
@@ -117,7 +118,7 @@
 
     .box{
 
-        height: 60%;
+        height: 100vw;
         width: 80%;
     }
 
@@ -133,6 +134,9 @@
 .box>p{
 
     font-size: 3vw;
+    /* margin-top: -1vw; */
+    padding: 0 3vw;
+
     
    
    
