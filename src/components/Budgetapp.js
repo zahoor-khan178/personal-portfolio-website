@@ -69,7 +69,10 @@ This is a full-stack </p>
 
 
                       <li className='front-end-heading '>Github Link:</li>
-                    <a href='https://github.com/zahoor-khan178/Budget-Tracker-Application' className='github-link '>https://github.com/zahoor-khan178/Budget-Tracker-Application</a>
+                    <a href='https://github.com/zahoor-khan178/Budget-Tracker-Application'  target="_blank"  rel="noopener noreferrer" className='github-link '>https://github.com/zahoor-khan178/Budget-Tracker-Application</a>
+                     
+                      <li className='front-end-heading '>Live Website Link:</li>
+                    <a href='https://budget-tracker-application-bb2h.vercel.app'  target="_blank"  rel="noopener noreferrer" className='github-link '>https://budget-tracker-application-bb2h.vercel.app</a>
                     
                 </div>
 

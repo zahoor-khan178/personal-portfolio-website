@@ -72,7 +72,10 @@ The application is fully responsive, meaning it adapts seamlessly to different s
 
 
                         <li className='front-end-heading '>Github Link:</li>
-                    <a href='https://github.com/zahoor-khan178/E-commerce-dashboard' className='github-link '>https://github.com/zahoor-khan178/E-commerce-dashboard</a>
+                    <a href='https://github.com/zahoor-khan178/E-commerce-dashboard' target="_blank"  rel="noopener noreferrer" className='github-link '>https://github.com/zahoor-khan178/E-commerce-dashboard</a>
+                    
+                        <li className='front-end-heading '>Live Website Link:</li>
+                    <a href='https://e-commerce-dashboard-cen9.vercel.app' target="_blank"  rel="noopener noreferrer" className='github-link '>https://e-commerce-dashboard-cen9.vercel.app</a>
                     
                 </div>
 

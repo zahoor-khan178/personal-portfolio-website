@@ -108,7 +108,11 @@ The software provides real-time insights into your text, displaying word and cha
 
 
                         <li className='front-end-heading '>Github Link:</li>
-                    <a href='https://github.com/zahoor-khan178/Textutils' className='github-link '>https://github.com/zahoor-khan178/Textutils</a>
+                    <a href='https://github.com/zahoor-khan178/Textutils' target="_blank"  rel="noopener noreferrer" className='github-link '>https://github.com/zahoor-khan178/Textutils</a>
+                      
+                      
+                        <li className='front-end-heading '>Live Website Link:</li>
+                    <a href='https://zahoor-khan178.github.io/Textutils/' target="_blank"  rel="noopener noreferrer" className='github-link '>https://zahoor-khan178.github.io/Textutils/</a>
 
                    
                     

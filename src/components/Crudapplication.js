@@ -65,7 +65,10 @@ const Crudapplication = () => {
 
 
                     <li className='front-end-heading '>Github Link:</li>
-                    <a href='https://github.com/zahoor-khan178/crud-application' className='github-link '>https://github.com/zahoor-khan178/crud-application</a>
+                    <a href='https://github.com/zahoor-khan178/crud-application' target="_blank"  rel="noopener noreferrer" className='github-link '>https://github.com/zahoor-khan178/crud-application</a>
+                   
+                   
+                    
 
                 </div>
 
