@@ -8,12 +8,12 @@ const Experience = () => {
             <div className='experience-container'>
                 <h1 className='experience-heading'>Experience</h1>
                 <h3 className='intern-software-developer-heading'>Intern software developer</h3>
-                <h4 className='company-name'>Famous Brands (Pvt) Ltd</h4>
+                <h4 className='company-name'> Irfan Textiles (Pvt) Ltd</h4>
                 <h4 className='company-name expreience-time'>Jan 2024 - present</h4>
               
                 <div className='experience-projects'>
                     <ul>
-                        <li>Developed and maintained full-stack web applications, using Node.js, Express.js for backend APIs, and React.js for dynamic user interfaces, with data persistence handled by MongoDB.</li>
+                        <li>Developed and deployed full-stack web applications, using Node.js, Express.js for backend APIs, and React.js for dynamic user interfaces, with data persistence handled by MongoDB.</li>
                         <br></br>
                         <li>Designed and implemented RESTful APIs to support core application functionalities, including user authentication, data retrieval, and CRUD operations, ensuring efficient communication between frontend and backend.</li>
                         <br></br>
