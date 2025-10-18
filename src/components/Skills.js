@@ -78,7 +78,7 @@ const Skils = () => {
                         <div className='css-container front-end-subsections'>
 
                             <h4>SQL</h4>
-                            <p>Proficient in SQL for designing and managing relational databases. Skilled in complex queries, joins, subqueries, and stored procedures, with experience in normalization, indexing, performance tuning, and working with MySQL/PostgreSQL.</p>
+                            <p>Proficient in SQL for designing and managing relational databases. Skilled in complex queries, joins, subqueries, and stored procedures, with experience in normalization, indexing, performance tuning, and working with Oracle SQL.</p>
                         </div>
 
 
