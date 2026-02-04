@@ -48,6 +48,3 @@ Clone the repository:
 git clone https://github.com/zahoor-khan178/personal-portfolio-website.git
 cd personal-portfolio-website
 
-<img width="1200" height="8000" alt="portfolio website demo file" src="https://github.com/user-attachments/assets/dee5a2ff-5674-44b2-bbb2-6ee3692ee890" />
-<img width="1200" height="8000" alt="portfolio website demo file" src="https://github.com/user-attachments/assets/dee5a2ff-5674-44b2-bbb2-6ee3692ee890" />
-
