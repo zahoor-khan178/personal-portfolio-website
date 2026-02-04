@@ -51,6 +51,6 @@ Clone the repository:
 git clone https://github.com/zahoor-khan178/personal-portfolio-website.git
 cd personal-portfolio-website
 
-![image alt](https://github.com/zahoor-khan178/personal-portfolio-website/blob/c41bdaf243deaecf5f61fb552984c411a918fd3f/portfolio%20website%20demo%20file.png)
+
 
 
