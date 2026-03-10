@@ -1,6 +1,6 @@
 import '../Css/budget_tracker.css'
 
-// import textutils from '../thumbnails/textutils.png';
+
 import textutilsVideo from '../projects.videos/textutil video.mp4';
 
 
@@ -9,7 +9,7 @@ const Textutils = () => {
         <div className='budget-tracker-app'>
             <div className='budget-tracker-app-video-section'>
 
-              {/* <img src={textutils} alt="crud" className='budget_video' /> */}
+              
               <video src={textutilsVideo} className='budget_video' controls autoPlay muted loop ></video>
               
                 <h1 className='budget-tracker-heading'>Textutils</h1>

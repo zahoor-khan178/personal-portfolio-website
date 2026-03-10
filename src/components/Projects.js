@@ -43,7 +43,7 @@ const Projects = () => {
 
                         </div>
 
-                        {/* <button className='project-button'>view detail</button> */}
+                       
                      <Link to="/budget" className='project-button'>view detail</Link>
                         
                     </div>

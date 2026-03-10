@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom';
+
 import { useState, useRef} from 'react';
 import '../Css/nav.css';
 
@@ -18,17 +18,7 @@ const links_container=useRef(null)
 
 
 
-//   useEffect(()=>{
 
-// if(window.innerWidth>768)
-// {
-//     links_container.current.classList.remove('show');
-    
-
-    
-
-// }
-//   },[])
 
   return (
     <>

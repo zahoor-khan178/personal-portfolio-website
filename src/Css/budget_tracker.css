@@ -1,21 +1,22 @@
+/* --- Budget Tracker App Container --- */
 .budget-tracker-app {
     color: white;
     height: fit-content;
-    width: 100%; /* fixed */
+    width: 100%;
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: rgb(2, 2, 35);
-      
-    overflow-x: hidden; /* prevent horizontal scroll */
+    overflow-x: hidden;
 }
 
+/* --- Video & Content Section --- */
 .budget-tracker-app-video-section {
     background-color: rgb(3, 62, 3);
     color: white;
-    width: 50%; /* fixed */
+    width: 50%;
     min-height: 100vh; 
     display: flex;
     flex-direction: column;
@@ -35,7 +36,6 @@
     padding-bottom: 1.2vw;
     font-size: 1.5vw;
     width: 100%;
-    
 }
 
 .budget-tracker-description {
@@ -44,6 +44,7 @@
     text-align: justify;
 }
 
+/* --- Features & Lists --- */
 .features-section {
     width: 100%;
     margin-top: 3vw;
@@ -61,7 +62,6 @@
     margin-top: 3vw;
     margin-left: 3vw;
     font-size: 1.5vw;
-    color: rgb(234, 12, 12);
     color: skyblue;
 }
 
@@ -70,10 +70,11 @@
     font-size: 1vw;
 }
 
+/* --- Technologies Section --- */
 .technologes-section {
     width: 100%;
     margin-top: 3vw;
-    margin-left: 5vw; /* reduced from 10vw */
+    margin-left: 5vw;
 }
 
 .tecnologies-heading {
@@ -85,9 +86,8 @@
 .front-end-heading {
     font-size: 1.5vw;
     margin-top: 2vw;
-     color: skyblue;
+    color: skyblue;
 }
-
 
 .react {
     margin-top: 4vw;
@@ -97,31 +97,24 @@
     font-size: 1vw;
     margin-top: 0.5vw;
     margin-left: 3vw;
-    
 }
 
-.github-link{
-
+.github-link {
     color: white;
     margin-left: 5vw;
     font-size: 1vw;
 }
 
-/* ================= MOBILE STYLES ================= */
-@media screen and (max-width:480px) {
+/* --- Mobile Styles (max-width: 480px) --- */
+@media screen and (max-width: 480px) {
     .budget-tracker-app {
-        padding: 0;
-        margin: 0;
-        width: 100%; /* fixed */
-        overflow-x: hidden;
-        flex-direction: column; /* stack layout */
+        width: 100%;
+        flex-direction: column;
     }
 
     .budget-tracker-app-video-section {
-        width: 100%; /* fixed */
-        min-height: 100vh;
+        width: 100%;
         padding: 0;
-        margin: 0;
         padding-bottom: 5vw;
     }
 
@@ -135,11 +128,6 @@
     .budget-tracker-description {
         font-size: 3vw;
         width: 95%;
-    }
-
-    .features-section {
-        width: 100%;
-        margin-top: 3vw;
     }
 
     .features-headin {
@@ -163,19 +151,14 @@
         font-size: 4vw;
     }
 
-    .react {
-        margin-top: 4vw;
-    }
-
     .frontend-technologies {
         font-size: 3vw;
         margin-top: 2vw;
-        margin-left: 6vw; /* reduced from 18vw to avoid scroll */
+        margin-left: 6vw;
     }
-    .github-link{
 
-    color:rgb(0, 191, 255);
-    margin-left: 5vw;
-    font-size: 3vw;
-}
+    .github-link {
+        color: rgb(0, 191, 255);
+        font-size: 3vw;
+    }
 }

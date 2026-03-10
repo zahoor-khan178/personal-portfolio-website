@@ -2,7 +2,6 @@
 import  '../Css/services.css';
 
 import web_logo from '../thumbnails/web eng.png';
-// import mobile_app from '../thumbnails/mobile app.png';
 import ui_ux from '../thumbnails/ui-ux.png';
 import restful_api from '../thumbnails/restful api logo.png';
 import data_design from '../thumbnails/data_design-logo.png';

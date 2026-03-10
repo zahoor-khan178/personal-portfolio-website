@@ -1,7 +1,7 @@
 
 import '../Css/budget_tracker.css'
 
-// import crud_app from '../thumbnails/crud app.png';
+
 import CrudAppVideo from '../projects.videos/crud app video.mp4';
 
 
@@ -12,7 +12,7 @@ const Crudapplication = () => {
             <div className='budget-tracker-app-video-section'>
 
 
-                {/* <img src={crud_app} alt="crud" className='budget_video' /> */}
+                
                 <video src={CrudAppVideo} className='budget_video' controls autoPlay muted loop ></video>
 
                 <h1 className='budget-tracker-heading'>Crud Application</h1>
