@@ -7,7 +7,7 @@ import '../Css/projects.css';
 import budget_tracker_app from '../thumbnails/budget summary.png';
 import ecommerce_app from '../thumbnails/ecommerce app.png';
 import textutils from '../thumbnails/textutils.png';
-import crud_app from '../thumbnails/crud app.png';
+import crud_app from '../thumbnails/Crud application.png';
 
 
 

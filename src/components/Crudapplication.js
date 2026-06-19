@@ -2,7 +2,7 @@
 import '../Css/budget_tracker.css'
 
 
-import CrudAppVideo from '../projects.videos/crud app video.mp4';
+import CrudAppVideo from '../projects.videos/Crud application.mp4';
 
 
 
